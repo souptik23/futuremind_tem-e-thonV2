@@ -1,0 +1,15 @@
+.hero-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-section {
+  margin: 20px 0;
+}
+
+.footer {
+  background: #1a1a2e;
+  padding: 20px;
+  text-align: center;
+}

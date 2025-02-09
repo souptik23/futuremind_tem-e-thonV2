@@ -1,0 +1,13 @@
+/*
+	jsrepo 1.29.1
+	Installed from https://reactbits.dev/default/
+	31-1-2025
+*/
+
+.noise-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}

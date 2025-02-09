@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Advisor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Investment Recommendation System</h2>
+        <form id="investmentForm">
+            <div class="mb-3">
+                <label for="age" class="form-label">Age</label>
+                <input type="number" id="age" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender</label>
+                <select id="gender" class="form-control" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="avenue" class="form-label">Investment Avenue</label>
+                <input type="text" id="avenue" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="purpose" class="form-label">Purpose</label>
+                <input type="text" id="purpose" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="duration" class="form-label">Investment Duration</label>
+                <input type="text" id="duration" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Get Recommendation</button>
+        </form>
+        <div class="mt-4">
+            <h4>Recommendation:</h4>
+            <p id="response" class="alert alert-info" style="display: none;"></p>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById("investmentForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const age = document.getElementById("age").value;
+            const gender = document.getElementById("gender").value;
+            const avenue = document.getElementById("avenue").value;
+            const purpose = document.getElementById("purpose").value;
+            const duration = document.getElementById("duration").value;
+            
+            fetch("/get_recommendation", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ age, gender, avenue, purpose, duration })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const responseElem = document.getElementById("response");
+                responseElem.textContent = data.response;
+                responseElem.style.display = "block";
+            })
+            .catch(error => console.error("Error:", error));
+        });
+    </script>
+</body>
+</html>

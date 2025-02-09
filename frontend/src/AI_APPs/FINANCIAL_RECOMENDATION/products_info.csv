@@ -1,0 +1,501 @@
+,Customer ID,Age,Gender,Marital Status,Income Level,Education,Occupation,Residential Status,Dependents,Debt-to-Income,Credit_Bureau,last_3months_personal_loan_inq,last_3months_credit_card_inq,last_3months_mortgage_inq,last_6months_personal_loan_inq,last_6months_credit_card_inq,last_6months_mortgage_inq
+0,f729f68b-9be3-486f-9e11-652368aec58f,59,Female,Married,Medium,College,Press photographer,Owns house,"(3,)","(0.15,)",455,False,True,True,True,False,False
+1,055a1b54-ef42-4346-b793-bf703c83e799,63,Male,Divorced,Low,College,"Buyer, retail",Rents,"(0,)","(0.22,)",833,False,True,True,True,True,False
+2,ef9e2e55-5498-4f72-a7b2-fb6a51b675e9,31,Male,Married,High,High School,Orthoptist,Rents,"(2,)","(0.2,)",642,False,False,True,True,False,True
+3,5859582d-fdec-4e53-a6c4-71853f1c54cb,62,Male,Divorced,Medium,College,Computer games developer,Owns house,"(0,)","(0.37,)",539,True,True,True,True,False,False
+4,5c462e59-a439-46f5-8eb4-874c6f219213,48,Female,Married,Low,High School,Drilling engineer,Living with parents,"(2,)","(0.19,)",848,True,True,False,True,True,True
+5,f3910fca-6861-4dc4-986d-daca9ac2798d,44,Male,Divorced,Low,College,Geographical information systems officer,Rents,"(3,)","(0.36,)",602,True,True,True,True,False,False
+6,6a11f0b0-8fc3-4825-92d5-bb139086fff0,67,Female,Divorced,Low,College,Building control surveyor,Rents,"(2,)","(0.4,)",746,True,True,False,False,False,True
+7,3c344e3a-9cc6-4a2c-ad1c-9a8ad270062c,60,Female,Widowed,Medium,College,Research scientist (medical),Living with parents,"(4,)","(0.24,)",711,True,False,True,True,True,False
+8,45c90a9a-3f54-4b59-a42e-ecc28ea2e57a,61,Male,Single,Medium,University,Chiropodist,Rents,"(3,)","(0.4,)",497,False,True,False,True,True,True
+9,9259d3de-6ba3-4fb9-af6d-18c7f69fbdca,57,Female,Divorced,Medium,University,"Administrator, arts",Living with parents,"(4,)","(0.31,)",634,True,False,True,False,True,False
+10,6ab70bdc-8c64-443f-85ea-0315632c542f,45,Male,Single,High,High School,Veterinary surgeon,Owns house,"(2,)","(0.43,)",415,False,False,True,True,False,True
+11,4c006051-a2cd-4fd1-9773-a5eecc399154,41,Female,Married,High,University,Make,Living with parents,"(3,)","(0.34,)",722,True,True,False,False,True,True
+12,0a329c05-fbf8-4f5d-abaf-529a972f4559,43,Male,Married,Medium,University,"Administrator, charities/voluntary organisations",Rents,"(2,)","(0.12,)",663,True,True,True,False,False,True
+13,a8121841-dda1-4811-8b45-3dcb4deaca71,66,Female,Single,Medium,College,English as a foreign language teacher,Rents,"(3,)","(0.24,)",810,True,True,True,True,True,False
+14,8fd90288-c2cc-4e9f-8514-fb420d405d4c,25,Male,Widowed,Medium,College,"Therapist, art",Rents,"(1,)","(0.29,)",685,True,False,True,True,True,True
+15,aa7f8c28-0c0e-4fb2-a584-50f8abce869c,30,Male,Divorced,Medium,High School,Museum education officer,Living with parents,"(5,)","(0.21,)",711,True,False,True,True,False,True
+16,65549e39-404f-4653-b77e-7322b85be704,66,Female,Married,Medium,College,Psychiatrist,Rents,"(4,)","(0.25,)",520,True,True,False,True,False,True
+17,d9e06fef-38e8-4d48-a93b-cd5ddd78d8a1,37,Female,Single,Medium,University,Health physicist,Rents,"(0,)","(0.2,)",782,True,True,True,False,True,True
+18,a8076bcb-ea30-48aa-bed4-88240c4c6ec2,29,Male,Divorced,High,University,"Engineer, materials",Owns house,"(2,)","(0.26,)",681,True,False,False,False,False,True
+19,71cc1d82-6848-4a97-b89b-ea58e1396f52,40,Female,Single,Medium,High School,"Education officer, environmental",Living with parents,"(5,)","(0.11,)",760,True,False,True,True,True,True
+20,886215af-c784-466f-b643-66bc042318e2,20,Male,Single,Medium,University,Equities trader,Owns house,"(5,)","(0.31,)",400,False,True,False,False,False,True
+21,10cbce84-0c9d-4966-bb40-52416425f35e,29,Male,Widowed,Low,University,Health and safety adviser,Owns house,"(1,)","(0.2,)",825,True,True,True,False,True,True
+22,6645ec9d-8055-4813-8d14-70b61ad76852,42,Female,Married,Medium,High School,Medical secretary,Living with parents,"(2,)","(0.42,)",621,True,True,False,True,True,True
+23,661ed67b-60b2-4205-a5a4-855cafc642a1,41,Female,Widowed,Medium,College,"Teacher, secondary school",Living with parents,"(2,)","(0.28,)",477,True,True,False,False,True,True
+24,9fb3a903-a09b-4443-963e-a6cb0dfc6db7,55,Female,Married,Low,College,Petroleum engineer,Rents,"(4,)","(0.34,)",619,True,False,False,False,True,False
+25,65d8d795-b3ed-471e-afcd-f3c9cc526dba,46,Female,Widowed,Low,University,Ceramics designer,Rents,"(4,)","(0.24,)",541,False,True,True,True,True,True
+26,25f031fc-b63e-4551-85d0-7f7dc215177c,67,Male,Divorced,Medium,College,"Sound technician, broadcasting/film/video",Rents,"(2,)","(0.39,)",484,True,False,False,False,True,True
+27,397d3524-f008-4d74-8f01-48b17b35f222,25,Female,Married,High,High School,Applications developer,Rents,"(1,)","(0.26,)",654,True,False,False,False,True,True
+28,6b260558-dd6b-4524-bbcf-b97b85c8e01f,26,Female,Married,High,High School,Lawyer,Living with parents,"(1,)","(0.46,)",410,False,True,True,True,False,False
+29,39bd3a7c-5016-4599-b559-50187bc25f64,47,Female,Widowed,Low,High School,Office manager,Owns house,"(1,)","(0.47,)",446,True,True,True,False,True,True
+30,6ae72bdc-7907-4bcb-876a-97dd2962968b,42,Female,Married,Medium,College,Health and safety inspector,Owns house,"(0,)","(0.31,)",497,True,True,False,True,False,True
+31,1f6df689-943b-4e82-9966-b212073fe8cd,45,Female,Married,Medium,College,Community arts worker,Rents,"(0,)","(0.19,)",411,True,True,False,False,True,True
+32,5d6078d3-8ba5-4fa5-817f-14af082f0277,39,Male,Married,High,High School,Politician's assistant,Rents,"(4,)","(0.13,)",549,True,True,True,True,False,True
+33,4ca86ec3-74bf-4f1f-88c2-dd3b17e18545,47,Female,Single,Low,College,Air cabin crew,Rents,"(3,)","(0.22,)",499,True,True,False,False,False,True
+34,bc12c72e-692b-4942-89b9-0146a63bc098,55,Male,Divorced,High,College,Publishing rights manager,Owns house,"(0,)","(0.29,)",682,True,True,True,True,True,True
+35,4a0e0c4a-ca87-4ea8-9a0e-9d95e72be8c7,51,Female,Widowed,Medium,University,Purchasing manager,Rents,"(2,)","(0.4,)",550,True,True,False,False,True,True
+36,ee6fa643-7027-452d-9b25-681bc6707a92,34,Male,Widowed,Low,University,"Journalist, newspaper",Owns house,"(0,)","(0.14,)",814,True,True,True,True,True,False
+37,8fef633e-d5b1-40b1-9e07-f40a8a8cfd07,68,Male,Married,High,University,Patent attorney,Living with parents,"(4,)","(0.48,)",566,True,True,True,True,False,True
+38,7cf72e1a-8347-4ad5-ab53-c3f4aaf9ecaf,44,Male,Married,Medium,High School,Chief Strategy Officer,Owns house,"(0,)","(0.2,)",428,True,False,True,False,True,False
+39,cc84eb90-28e1-44f6-89fb-2c5a68027fe4,29,Female,Married,Medium,High School,"Engineer, control and instrumentation",Owns house,"(1,)","(0.49,)",820,True,True,False,True,True,False
+40,d711f5b9-68f1-42f5-b1d1-cc699a0ea5de,67,Male,Single,Medium,High School,Water quality scientist,Living with parents,"(5,)","(0.38,)",845,False,True,True,True,False,True
+41,345b9221-25f8-4e38-ad62-9ac1cf0d1382,48,Female,Widowed,High,University,Data scientist,Living with parents,"(5,)","(0.43,)",831,True,False,True,True,False,False
+42,29fef2cb-7056-4937-8002-ceba74d68d83,41,Female,Widowed,Medium,High School,Food technologist,Rents,"(3,)","(0.17,)",679,False,True,True,False,True,True
+43,7c9450a2-6c17-4fa9-af01-3323dc45a6ec,62,Male,Married,Low,University,Fitness centre manager,Rents,"(4,)","(0.48,)",674,True,True,True,True,True,True
+44,e73a4087-da53-4d47-b810-c78e6677e122,34,Male,Single,Medium,College,"Education officer, community",Rents,"(0,)","(0.22,)",661,False,False,True,True,True,True
+45,89bae1a4-9d57-4164-857f-24197aa218fa,62,Female,Married,High,College,"Teacher, English as a foreign language",Rents,"(0,)","(0.37,)",790,True,True,False,True,False,True
+46,1c153315-7003-402a-9762-4cd0a661531b,52,Male,Single,Medium,High School,Financial planner,Rents,"(0,)","(0.24,)",781,True,False,True,False,True,False
+47,290e6503-fa4f-49e2-b721-31568c128d3d,39,Female,Widowed,High,High School,Local government officer,Living with parents,"(3,)","(0.46,)",693,True,True,True,False,True,False
+48,948a56ec-0ef7-414b-8bd7-30f08a941083,65,Female,Widowed,High,High School,"Research officer, trade union",Owns house,"(1,)","(0.39,)",474,True,True,True,True,True,True
+49,0eab312f-197d-4521-ab6c-68fad800bc60,49,Male,Widowed,Low,University,Educational psychologist,Owns house,"(2,)","(0.16,)",475,True,True,True,False,False,True
+50,4197a65d-0558-43a7-9266-b1e361f73456,52,Female,Single,Medium,College,Mental health nurse,Owns house,"(4,)","(0.26,)",765,True,True,False,True,False,False
+51,6cc9a354-30de-42cc-ad41-f81d435a674b,20,Male,Single,High,High School,"Conservation officer, nature",Rents,"(2,)","(0.38,)",654,False,True,True,True,False,False
+52,a3d76c7b-f201-4ccf-b4af-fb6c0ab64b6d,42,Male,Widowed,Low,University,"Engineer, electronics",Rents,"(1,)","(0.12,)",753,True,False,False,True,False,True
+53,8663f254-ca86-4617-ac01-c3d442c300d2,44,Female,Married,High,High School,Television production assistant,Living with parents,"(3,)","(0.23,)",490,True,False,False,True,True,False
+54,e09176e9-f690-47e6-9f54-9f5d15fc6422,60,Female,Married,Medium,College,Newspaper journalist,Rents,"(3,)","(0.26,)",563,False,True,True,True,True,True
+55,8db58736-a2b7-4c65-ac6f-72b93cc7a0d2,48,Female,Divorced,Medium,High School,Mining engineer,Owns house,"(3,)","(0.1,)",782,False,False,True,False,True,True
+56,3e964ff8-44c9-40f4-9e3a-b545a370ce36,44,Male,Widowed,Medium,High School,"Designer, multimedia",Living with parents,"(1,)","(0.44,)",498,False,True,True,True,True,False
+57,444d7720-b490-47ce-90ac-812b64e4c614,64,Male,Single,Medium,University,"Radiographer, diagnostic",Owns house,"(3,)","(0.17,)",433,True,False,False,True,True,False
+58,f1b9e2dc-7381-45cf-ae91-09f63c1c4b41,49,Female,Single,Medium,College,Brewing technologist,Rents,"(2,)","(0.1,)",538,False,False,True,False,True,True
+59,e4938456-8e84-4e8e-9581-a0f5a812f6c6,60,Male,Divorced,High,College,Regulatory affairs officer,Rents,"(1,)","(0.22,)",771,False,False,True,False,False,True
+60,3c58e372-91be-4827-a9a2-25f633448c50,53,Female,Single,High,College,"Surveyor, hydrographic",Living with parents,"(5,)","(0.13,)",597,False,False,True,False,True,True
+61,1d26f7e2-e11c-4497-950a-987d61b88e53,44,Male,Divorced,Low,University,Occupational hygienist,Owns house,"(2,)","(0.1,)",451,True,False,True,True,False,False
+62,08fb52d2-a80c-4bf2-851e-77059c14c1bf,63,Male,Divorced,High,University,Horticultural therapist,Living with parents,"(5,)","(0.12,)",799,True,True,True,True,True,False
+63,daf5bb63-bd54-42d7-85ed-fa342255152b,20,Female,Widowed,High,High School,Translator,Living with parents,"(0,)","(0.38,)",511,True,True,True,False,True,True
+64,8cf6595b-2ac5-48a4-9476-9f5ce0dd67be,56,Male,Single,High,High School,"Lecturer, higher education",Owns house,"(1,)","(0.29,)",435,True,True,False,False,True,True
+65,fcef8036-c5ea-4aaf-9e1a-7e721d4387a7,47,Male,Single,High,College,"Horticulturist, amenity",Owns house,"(1,)","(0.4,)",647,False,False,True,True,True,True
+66,eaa91678-b5fa-41ce-9e20-1fd1aa9525e8,60,Female,Married,Medium,High School,Learning disability nurse,Living with parents,"(0,)","(0.3,)",449,True,True,True,True,False,True
+67,a6c91705-2e33-445d-a2b3-38593d61d3cf,31,Male,Widowed,High,College,"Production assistant, television",Living with parents,"(0,)","(0.19,)",771,False,False,True,False,True,True
+68,55b94a61-83f4-4898-8611-c92d975b621d,65,Female,Married,Medium,University,Surgeon,Living with parents,"(4,)","(0.38,)",553,True,False,False,True,True,False
+69,8e839ade-8a8b-403b-a70d-58c85f1682a7,68,Female,Single,Low,University,"Surveyor, insurance",Rents,"(1,)","(0.43,)",496,False,False,True,True,True,False
+70,f262fdfa-5a8d-4f14-b819-9168d7b2301b,57,Male,Divorced,High,High School,Social worker,Rents,"(3,)","(0.29,)",499,False,False,True,False,True,True
+71,9d639f78-c818-49a6-a847-a73bb42be0e1,64,Male,Married,Low,University,"Surveyor, quantity",Living with parents,"(4,)","(0.11,)",508,True,False,True,False,True,True
+72,23a4a6d3-560e-4927-83df-a055fb220689,64,Male,Divorced,High,University,Child psychotherapist,Rents,"(0,)","(0.21,)",419,True,True,True,True,True,True
+73,3a191c23-2aad-401b-980d-43fd84fedd6e,40,Male,Widowed,High,High School,Quantity surveyor,Living with parents,"(4,)","(0.4,)",522,False,False,True,False,True,True
+74,520e9ce8-a59f-43a2-ac81-53d63d3a11c1,59,Male,Divorced,High,University,"Surveyor, planning and development",Living with parents,"(2,)","(0.21,)",744,False,False,True,True,False,True
+75,b51d2c02-125e-495c-bf38-060132fe24de,37,Male,Widowed,Low,High School,"Engineer, aeronautical",Owns house,"(0,)","(0.14,)",500,False,True,False,False,True,True
+76,d5527a66-a46c-44ff-95f5-69730689e66d,55,Female,Widowed,Medium,University,"Psychologist, sport and exercise",Living with parents,"(1,)","(0.26,)",654,False,False,True,True,True,True
+77,12aefcb1-b584-460e-bfdd-544f4421184c,59,Male,Married,High,High School,Human resources officer,Living with parents,"(0,)","(0.28,)",455,True,True,False,False,False,True
+78,292281f6-259a-4713-8ed0-8e7de5eeb605,26,Female,Divorced,High,High School,Academic librarian,Rents,"(0,)","(0.43,)",731,True,False,False,True,True,True
+79,71b7a294-e57c-4e12-8027-a8e4f1d595ff,22,Female,Divorced,High,High School,Photographer,Living with parents,"(1,)","(0.16,)",648,True,False,True,True,True,False
+80,70cf75f4-9f34-428d-aba1-a6cb244c1e4f,27,Male,Married,Medium,College,Jewellery designer,Owns house,"(5,)","(0.16,)",541,False,True,True,True,True,True
+81,40f815a3-bdb5-4087-a53f-a4eeb69b24c0,24,Female,Divorced,Medium,University,"Merchandiser, retail",Rents,"(1,)","(0.38,)",841,False,False,True,False,True,False
+82,328f6219-148b-4f63-a543-04edb7b0d6ab,57,Female,Single,Low,College,Housing manager/officer,Rents,"(0,)","(0.29,)",668,True,True,True,False,True,False
+83,6fb894d4-8e16-421c-a3d2-02b4deae78d9,54,Female,Single,High,College,"Therapist, nutritional",Rents,"(0,)","(0.23,)",640,False,True,False,True,True,False
+84,a8b5e441-8e22-4b43-8128-4fac92e64016,66,Female,Single,Medium,University,Jewellery designer,Rents,"(3,)","(0.29,)",753,True,True,True,True,False,False
+85,158aedae-d2ef-44f3-84e3-39543676934d,40,Female,Single,High,University,"Therapist, horticultural",Owns house,"(3,)","(0.23,)",815,False,False,True,False,False,True
+86,0a2a978a-f272-4fb0-aedd-fd0f2158a154,59,Female,Married,High,High School,"Radiographer, therapeutic",Owns house,"(0,)","(0.45,)",596,True,True,False,True,False,False
+87,e345d858-283d-44d4-ba32-594c8a73a0ad,67,Male,Single,Low,High School,"Conservator, furniture",Living with parents,"(3,)","(0.17,)",424,True,True,True,True,False,True
+88,1309f40b-555e-4302-8abc-a83dd492cf27,25,Male,Divorced,High,College,Chartered accountant,Rents,"(2,)","(0.13,)",823,True,False,True,True,False,True
+89,e113d941-3e4e-4ec0-a4c7-d0db710fb612,45,Female,Married,Medium,College,Therapeutic radiographer,Owns house,"(1,)","(0.33,)",511,True,True,True,True,False,False
+90,6c88f984-cc23-41fe-8b3e-e5d02e477502,55,Male,Divorced,Medium,University,"Conservation officer, nature",Living with parents,"(4,)","(0.1,)",789,True,True,False,True,True,False
+91,2df5f075-62fa-4a76-b1bc-d27233ef000b,44,Male,Widowed,High,High School,Scientific laboratory technician,Rents,"(4,)","(0.2,)",778,True,False,False,True,True,True
+92,3c91f090-0ddb-434c-b4d7-54c937e8506a,48,Male,Single,High,High School,Sports development officer,Owns house,"(2,)","(0.44,)",814,True,True,False,False,True,True
+93,8084a0d8-d505-430f-8c4b-b0c6d1cac47b,25,Female,Divorced,Low,University,"Engineer, mining",Owns house,"(4,)","(0.29,)",625,True,True,False,False,True,True
+94,dc302ce6-367b-4724-b78e-04a46060585b,39,Male,Single,High,High School,Production manager,Living with parents,"(1,)","(0.1,)",755,False,True,False,True,False,True
+95,d5ab8a4c-7124-4ab2-b057-c8029f719294,21,Female,Divorced,Low,University,Oceanographer,Rents,"(2,)","(0.45,)",812,False,True,True,False,False,True
+96,ceff749f-786e-49fd-a856-a09048a19512,55,Female,Married,High,University,Recycling officer,Rents,"(4,)","(0.5,)",479,True,True,False,False,True,True
+97,d4195028-50a2-428a-867f-7a5a110dd0d4,29,Female,Divorced,High,University,Information officer,Rents,"(4,)","(0.23,)",682,True,False,True,False,True,False
+98,e6e0bc7e-5ab4-4444-b6d7-030a01466803,31,Female,Divorced,Low,College,Special educational needs teacher,Owns house,"(1,)","(0.4,)",519,True,True,True,True,False,True
+99,c6f22751-a02f-4d84-aa5a-bd778b8ffec7,61,Male,Widowed,Medium,University,"Pharmacist, hospital",Owns house,"(4,)","(0.1,)",592,True,True,True,False,True,False
+100,1a777a1e-52e2-4df3-9977-a5dccd2d2cb8,63,Male,Widowed,Medium,University,Community pharmacist,Owns house,"(1,)","(0.38,)",750,False,True,True,True,False,True
+101,fa28c752-c409-4337-bc2c-cbfaf992bf30,34,Male,Single,High,University,Illustrator,Living with parents,"(1,)","(0.47,)",450,True,True,False,True,True,False
+102,8336f391-6b18-41ed-b145-fd9ea272816b,58,Male,Married,High,College,Occupational hygienist,Owns house,"(1,)","(0.47,)",652,False,True,True,True,True,False
+103,aca15c5a-6a25-44c1-b7ff-bd8a47515b1d,27,Female,Single,High,High School,"Teacher, adult education",Rents,"(2,)","(0.41,)",719,False,True,True,True,True,False
+104,3c4ddced-5dc2-4e7b-803e-02c30899c89a,26,Female,Divorced,Medium,University,Gaffer,Rents,"(0,)","(0.15,)",847,False,True,True,True,True,False
+105,76abdcdc-d102-49b2-9c1c-b81c56424d6b,58,Female,Single,Medium,College,Lexicographer,Living with parents,"(2,)","(0.11,)",416,False,False,True,True,True,True
+106,34aee727-9369-4bed-bda3-3fce87992c60,50,Female,Divorced,Medium,University,"Scientist, research (physical sciences)",Living with parents,"(0,)","(0.39,)",710,True,True,True,True,False,False
+107,486f5dcf-b7b7-442b-944b-256813924f53,48,Male,Divorced,High,College,Market researcher,Living with parents,"(3,)","(0.38,)",779,True,True,True,False,False,True
+108,c16d6a80-bc2d-4962-91ce-dc2073a74b5d,41,Male,Married,High,High School,Local government officer,Living with parents,"(1,)","(0.38,)",598,True,True,False,True,True,False
+109,9d65b76e-93f9-4f59-adda-f5fb0c37a7be,66,Female,Divorced,High,High School,"Therapist, occupational",Rents,"(3,)","(0.32,)",569,False,True,True,False,True,False
+110,a0ad12a6-3ba6-409f-abac-ed8d8dcd803d,68,Female,Married,Low,High School,Clinical psychologist,Rents,"(1,)","(0.36,)",544,True,True,True,True,True,True
+111,35c2dcd8-c43d-4043-b517-e245c6350f61,69,Male,Single,High,High School,Leisure centre manager,Owns house,"(2,)","(0.32,)",810,False,False,True,True,True,True
+112,189309bb-3ffc-45a3-a08f-418e5340d517,42,Female,Married,High,College,"Producer, television/film/video",Living with parents,"(3,)","(0.11,)",621,True,False,False,True,True,True
+113,8550fea8-60d9-48cf-8010-cebc4d887eb0,20,Female,Divorced,Medium,College,"Designer, jewellery",Owns house,"(0,)","(0.11,)",490,False,True,True,False,True,True
+114,429865a9-3424-4b36-b652-731bcb4f1036,34,Male,Widowed,Medium,High School,Insurance account manager,Rents,"(1,)","(0.37,)",689,False,True,True,True,True,True
+115,9fef69c1-7caa-4552-aeaf-86453c02ec7c,26,Male,Married,High,High School,Control and instrumentation engineer,Rents,"(5,)","(0.25,)",436,True,True,False,True,False,True
+116,21bedd9d-9e31-4358-a9c8-683523c5dd81,67,Female,Single,Medium,College,Chief Strategy Officer,Owns house,"(4,)","(0.36,)",451,True,False,False,True,True,True
+117,898e60d7-5538-45a9-985c-7be51536bd7d,34,Female,Widowed,Medium,College,Emergency planning/management officer,Living with parents,"(5,)","(0.36,)",526,True,True,True,True,True,True
+118,e485edd9-bbe3-4940-a7c1-e910d7d766c1,57,Female,Divorced,High,College,"Pilot, airline",Living with parents,"(1,)","(0.29,)",700,True,False,True,False,True,False
+119,f1a9a502-e636-455f-855d-c843465699a5,60,Female,Divorced,Low,University,Best boy,Living with parents,"(3,)","(0.25,)",588,True,True,True,False,False,True
+120,2e5518ae-fd80-40bc-9127-be3df144d9fc,23,Female,Married,Low,High School,Outdoor activities/education manager,Living with parents,"(2,)","(0.21,)",675,True,True,True,True,False,True
+121,51cf0f0d-02ab-49e8-a71c-638740961ddc,53,Male,Single,Low,High School,Sports coach,Living with parents,"(5,)","(0.37,)",567,True,True,True,False,False,True
+122,4938a728-1bff-4682-94ec-83c94edc9e28,43,Male,Single,High,High School,Operations geologist,Living with parents,"(0,)","(0.4,)",524,False,False,True,True,False,False
+123,81007413-fbb9-43ce-8b6f-b8d53a6d4eb6,31,Male,Married,High,High School,Public house manager,Living with parents,"(5,)","(0.34,)",535,True,True,False,False,True,False
+124,5f638188-16d8-4630-97f6-a06457c0c89d,59,Male,Widowed,Low,College,Site engineer,Owns house,"(5,)","(0.11,)",702,False,False,True,True,True,True
+125,bbb60707-390b-412f-a7c8-349d367e02f2,70,Female,Divorced,Medium,University,Actor,Living with parents,"(5,)","(0.45,)",714,True,True,True,True,True,False
+126,b39d8177-59f3-42e9-8eaf-74c4ba26fd96,64,Male,Widowed,Low,High School,"Therapist, music",Rents,"(4,)","(0.16,)",438,True,True,True,False,True,False
+127,e19909df-99e4-469e-8a3e-318cb45d85c3,50,Male,Widowed,Medium,High School,Art gallery manager,Owns house,"(5,)","(0.11,)",667,True,True,True,True,True,True
+128,eb61a128-4012-4970-83f2-85cbd70a5687,67,Male,Single,Medium,University,"Engineer, technical sales",Owns house,"(2,)","(0.2,)",695,False,True,True,True,True,False
+129,3c7a37a4-4feb-4404-82c9-46d95ee9bb08,58,Male,Single,Low,College,Radio broadcast assistant,Rents,"(0,)","(0.38,)",821,False,True,False,False,True,True
+130,2cea2d62-1c65-457b-845d-bb6f42e4cc0f,24,Male,Single,Low,University,Charity officer,Owns house,"(2,)","(0.24,)",820,False,False,True,True,False,False
+131,5744def8-c600-4e86-80c9-2f445f8e280d,69,Female,Married,High,College,Film/video editor,Owns house,"(4,)","(0.16,)",775,True,False,True,True,True,False
+132,80704d04-2e53-458b-94e1-65988f24dcc5,47,Male,Married,Medium,College,Copy,Living with parents,"(1,)","(0.21,)",513,True,True,True,True,True,True
+133,5ffe6ecb-777b-416e-9e1d-8c224709effb,32,Female,Married,Low,University,"Engineer, civil (contracting)",Rents,"(5,)","(0.36,)",486,False,False,True,False,False,True
+134,a5d91b2e-7e98-494f-a0d4-96b745b52b02,50,Male,Widowed,Low,University,Barrister's clerk,Living with parents,"(1,)","(0.36,)",485,True,False,False,True,True,False
+135,64ac4c4e-1940-4ad1-8888-8037a5aa99cd,34,Male,Divorced,High,College,Archivist,Owns house,"(3,)","(0.36,)",597,True,False,False,False,True,False
+136,ff540c7a-dcdd-40ae-989e-a3fad11895fa,40,Female,Widowed,Medium,High School,Aid worker,Owns house,"(2,)","(0.49,)",447,True,True,True,True,True,False
+137,a50baeed-b61c-4f48-aafc-b4f319885242,54,Male,Widowed,Medium,High School,Press sub,Rents,"(5,)","(0.19,)",454,False,True,True,False,False,True
+138,b49c05d7-689a-43a3-bd41-47850c9366fb,57,Male,Single,Medium,High School,Accommodation manager,Living with parents,"(1,)","(0.23,)",563,True,True,True,True,True,True
+139,fc3f0014-3c31-4a6b-b979-8ac11cec90bd,41,Female,Divorced,Medium,University,Hospital doctor,Rents,"(4,)","(0.26,)",602,True,False,False,False,False,True
+140,55d61048-5a89-4212-ba55-a33c1973e63e,50,Female,Single,Low,College,"Therapist, speech and language",Owns house,"(1,)","(0.46,)",757,False,True,True,True,False,False
+141,bace7e25-2b0a-4b7c-8410-2ae9268e4d5a,55,Male,Widowed,High,University,Clothing/textile technologist,Rents,"(4,)","(0.16,)",515,True,True,True,True,False,True
+142,8ac403f3-2268-4387-933a-5088c6410daf,30,Female,Widowed,Low,College,Forest/woodland manager,Living with parents,"(0,)","(0.11,)",420,True,False,True,False,True,True
+143,05cd50a9-1555-442b-9f9a-0f817ce5f726,47,Male,Widowed,Low,University,Occupational hygienist,Rents,"(4,)","(0.19,)",480,True,True,False,True,True,True
+144,aabe0113-30b0-47ef-b360-096c2810276f,33,Male,Single,Medium,College,Ranger/warden,Rents,"(5,)","(0.21,)",438,False,True,False,True,True,False
+145,e57320ca-9b11-48d8-a65d-a575b33ccec8,41,Female,Divorced,Medium,University,Counselling psychologist,Rents,"(5,)","(0.17,)",597,True,False,False,False,False,True
+146,73b1c3c8-f468-4fde-bba4-73698793e066,25,Female,Married,Medium,College,Dentist,Living with parents,"(5,)","(0.34,)",430,True,False,False,False,True,False
+147,a8b89470-7385-4bbc-bc83-7168fad0e14d,65,Male,Married,Low,High School,"Surveyor, minerals",Rents,"(1,)","(0.28,)",669,True,False,False,True,True,True
+148,56814282-575b-4831-8ffe-ce0162b278e1,65,Male,Married,High,High School,"Engineer, maintenance",Living with parents,"(1,)","(0.33,)",584,True,True,True,True,True,False
+149,9b707aa4-7dea-418d-8800-ffff0e798729,70,Female,Married,Low,High School,Prison officer,Owns house,"(4,)","(0.37,)",479,False,True,False,False,True,False
+150,1ce3c0cb-a9de-4b32-86db-8897ba8dd1af,57,Female,Divorced,Medium,High School,Art therapist,Living with parents,"(1,)","(0.25,)",539,True,False,False,True,True,True
+151,2b8da669-ab85-4699-a4c4-36cb723d3538,57,Female,Married,Low,High School,"Journalist, magazine",Owns house,"(1,)","(0.43,)",693,True,True,True,True,True,False
+152,69911d29-8574-4d1f-a8f1-72be12b6c7ed,68,Male,Widowed,Medium,College,Sales promotion account executive,Owns house,"(1,)","(0.34,)",661,False,False,True,True,True,True
+153,a09af909-2e15-438b-8902-c4b337935796,44,Female,Single,High,University,Probation officer,Living with parents,"(2,)","(0.42,)",459,True,False,False,False,True,True
+154,eded408c-376c-47cd-be77-28a65b28564f,49,Female,Widowed,Low,University,Television camera operator,Owns house,"(4,)","(0.19,)",773,False,True,True,True,False,True
+155,78006c21-af90-4f55-9387-8bb8f010ce38,54,Male,Divorced,Low,High School,Data processing manager,Rents,"(5,)","(0.19,)",560,True,True,True,False,True,False
+156,9d234191-351c-4bb3-a14b-7facffda4688,29,Male,Single,High,High School,Insurance claims handler,Living with parents,"(3,)","(0.41,)",752,False,True,False,False,False,True
+157,570efcf1-d24f-43a5-86d7-da4b9c6a502c,32,Female,Widowed,Low,College,Information systems manager,Rents,"(0,)","(0.1,)",622,False,False,True,True,False,True
+158,4a1c993d-af8e-4644-ae6b-e929625edf00,25,Female,Married,Low,College,"Producer, radio",Living with parents,"(3,)","(0.11,)",513,True,False,True,False,False,True
+159,8ce65147-02d9-4ef6-ae25-7e5ea95e76db,32,Male,Divorced,High,University,Arts administrator,Living with parents,"(1,)","(0.47,)",479,False,True,True,True,True,True
+160,2cb0d822-362c-40cf-bb54-c439306707e0,63,Female,Married,Low,University,Investment analyst,Rents,"(3,)","(0.25,)",755,True,True,True,True,False,True
+161,9f5f9f29-9457-40e3-bd59-6d85a5261ad7,46,Male,Widowed,Low,College,"Producer, television/film/video",Owns house,"(5,)","(0.24,)",567,False,False,True,False,True,False
+162,89a6eaf2-f58d-4c6b-849f-8384f09fcb8a,55,Female,Married,Low,College,Dietitian,Rents,"(5,)","(0.14,)",539,False,True,False,False,True,False
+163,2f4f4770-ee80-4d31-8099-3a87b74b0253,43,Female,Divorced,High,High School,Art therapist,Owns house,"(1,)","(0.33,)",645,True,False,True,False,True,False
+164,80b74a75-9338-44e8-8d8d-fc61e0ecb06c,43,Male,Divorced,Low,University,Sub,Owns house,"(0,)","(0.3,)",557,True,False,True,False,False,True
+165,c0bd5ae5-b0ad-4d1d-8cd7-70a9aeab4101,50,Male,Divorced,Low,University,"Radiographer, diagnostic",Owns house,"(1,)","(0.44,)",498,False,True,False,False,False,True
+166,db471666-65b1-4cc5-9868-1d17a300ddb7,60,Male,Married,Medium,College,"Therapist, sports",Rents,"(5,)","(0.49,)",603,False,True,True,False,True,False
+167,522f6ae3-01f2-49b8-8bec-7049622082ea,27,Female,Single,High,University,Lexicographer,Owns house,"(4,)","(0.5,)",575,True,False,False,False,True,False
+168,83d7a775-74c4-4186-a7ae-da53da68e9d0,58,Male,Divorced,Low,University,Production manager,Living with parents,"(2,)","(0.15,)",469,True,True,True,False,False,True
+169,431534fd-0182-48df-a6fe-a612ffa8391a,53,Female,Divorced,Medium,College,Armed forces training and education officer,Rents,"(3,)","(0.12,)",535,False,True,False,True,True,True
+170,86bc94ae-efbf-4c4f-928c-5ee5f67de54d,65,Male,Single,Low,College,Medical laboratory scientific officer,Owns house,"(5,)","(0.32,)",503,True,True,True,True,True,True
+171,fe4e70b4-d988-423c-9e67-5c5ccd344d8b,24,Male,Married,Medium,University,Film/video editor,Rents,"(3,)","(0.16,)",568,True,False,True,False,True,False
+172,f7e2304f-2d34-4bfe-b6fd-3a7136a73435,27,Female,Divorced,Low,University,Dietitian,Owns house,"(1,)","(0.44,)",548,False,False,True,True,True,True
+173,a9f3349c-1217-4047-9014-0ebdab048aaf,26,Female,Widowed,Medium,High School,Higher education careers adviser,Rents,"(5,)","(0.42,)",764,True,False,True,False,True,True
+174,74fbbaf4-1a1e-4a75-bad5-3f10f15401d0,44,Male,Divorced,Low,College,Medical secretary,Living with parents,"(0,)","(0.11,)",462,True,True,True,True,True,False
+175,016f12e1-489b-4848-a7ca-dac1844bcd2c,50,Female,Married,Low,High School,Oncologist,Owns house,"(4,)","(0.29,)",434,True,True,True,True,True,False
+176,ec57ad03-b1c4-4914-9cc0-035b455d9df2,27,Male,Widowed,Low,University,Toxicologist,Owns house,"(4,)","(0.18,)",600,True,True,True,True,False,True
+177,99393bcf-7359-4800-942d-895fb5476b2a,37,Male,Single,Medium,University,Tourist information centre manager,Rents,"(4,)","(0.38,)",767,True,False,False,False,False,True
+178,55c92d17-1d2f-4a89-a510-b9970e8255ab,60,Male,Single,Medium,University,"Lighting technician, broadcasting/film/video",Rents,"(3,)","(0.41,)",814,True,True,True,True,True,True
+179,273d4bcd-4385-43a4-8574-f68a89592709,70,Male,Divorced,Medium,College,Conference centre manager,Living with parents,"(4,)","(0.19,)",769,True,True,False,True,False,True
+180,6506a519-aa19-444c-8180-8a8854ceabd7,25,Male,Single,Medium,University,"Programme researcher, broadcasting/film/video",Owns house,"(5,)","(0.37,)",573,True,True,True,True,True,False
+181,97fab2df-1af4-461f-9019-1125c47d4d86,36,Male,Married,Medium,College,Waste management officer,Living with parents,"(4,)","(0.16,)",807,False,False,True,False,True,True
+182,8df1f59a-670c-45c7-af4d-71245a90e375,54,Male,Widowed,High,University,Medical physicist,Living with parents,"(4,)","(0.25,)",613,True,True,False,True,True,True
+183,f9a4942b-63a9-4d2d-9879-009de47aea7f,60,Female,Married,High,College,Toxicologist,Living with parents,"(1,)","(0.15,)",747,True,True,False,False,True,True
+184,5fce8876-d0d8-49e2-bfd1-793cdd5480f8,69,Female,Widowed,Low,High School,"Teacher, music",Owns house,"(4,)","(0.34,)",414,True,True,False,False,True,True
+185,0a2d486e-d511-4759-b174-8d34231ff7ba,49,Male,Divorced,Low,High School,"Engineer, civil (consulting)",Owns house,"(4,)","(0.43,)",706,True,True,True,True,False,False
+186,dbb62f66-ded3-4f93-a422-a2e89ad97f18,28,Male,Widowed,Low,College,"Scientist, research (life sciences)",Owns house,"(2,)","(0.11,)",615,True,False,False,False,True,False
+187,b64d1ebd-4740-4f28-8d74-087f0c78274f,41,Female,Married,High,College,Glass blower/designer,Rents,"(4,)","(0.24,)",827,False,True,False,True,True,False
+188,578968da-63ed-46c2-b01e-ddf2b884c4d3,45,Female,Widowed,Low,University,Animal nutritionist,Rents,"(3,)","(0.34,)",449,False,True,False,False,True,True
+189,cebe8619-efa2-4446-a64f-06c084ed8313,59,Female,Single,High,University,Catering manager,Rents,"(4,)","(0.32,)",415,False,True,False,False,True,False
+190,0d9b6f1f-cbbd-46ae-9e4d-81ddf5a698d5,35,Male,Single,Medium,High School,Early years teacher,Owns house,"(5,)","(0.13,)",818,False,True,True,False,True,True
+191,d8e5e518-3ec3-4029-9d07-f173ceed34c5,22,Male,Divorced,Medium,College,"Accountant, chartered public finance",Owns house,"(1,)","(0.26,)",717,True,True,False,False,False,True
+192,455809e4-aaa4-4998-95e0-1f0a9c371fc8,57,Female,Single,Medium,College,Insurance account manager,Rents,"(2,)","(0.21,)",726,True,False,True,True,True,True
+193,0e2c2364-368e-4d08-a4d3-6e13a377fd2b,58,Male,Widowed,High,University,"Civil engineer, consulting",Owns house,"(4,)","(0.37,)",599,True,False,True,True,True,False
+194,c4fe497b-5527-4776-9852-a531de8177bd,35,Female,Married,High,High School,"Nurse, adult",Owns house,"(5,)","(0.33,)",437,True,True,False,True,False,True
+195,2324c3f0-2977-4fe1-9f50-514887bdb97e,51,Female,Widowed,High,University,Physiological scientist,Living with parents,"(2,)","(0.24,)",546,True,True,False,True,True,True
+196,f1e91b5f-846a-4065-a9cb-51026682347c,28,Male,Single,Medium,College,Community development worker,Rents,"(4,)","(0.37,)",459,True,False,True,False,True,True
+197,89a4e63e-c114-4e12-a8b7-bc41791cb2bc,27,Male,Divorced,High,College,Bonds trader,Owns house,"(0,)","(0.33,)",649,True,True,True,True,False,True
+198,15df377e-6d8a-439e-9d93-714a585fffe3,70,Male,Widowed,High,College,Photographer,Owns house,"(5,)","(0.15,)",847,True,True,False,False,True,False
+199,828ab7cb-c5d2-4ee7-aba8-69697d6d0cee,31,Male,Married,Low,University,"Production assistant, radio",Rents,"(1,)","(0.15,)",662,True,True,False,True,True,False
+200,b042545d-0641-4b31-9b31-b95b8503b2a7,57,Male,Widowed,High,College,"Presenter, broadcasting",Rents,"(0,)","(0.12,)",679,False,True,True,True,True,True
+201,a676511f-da2f-41a4-b383-a55a48855023,33,Male,Divorced,Low,University,Actuary,Owns house,"(2,)","(0.46,)",642,False,False,True,True,True,False
+202,4c98b8f9-4178-4346-891b-fbbe895dc074,56,Male,Divorced,Low,High School,Actor,Rents,"(4,)","(0.25,)",698,True,True,True,False,False,True
+203,570ef8b1-43f7-42bf-a6c7-ee4375cdd981,33,Male,Widowed,Low,University,Ship broker,Rents,"(0,)","(0.38,)",421,False,True,True,True,True,True
+204,cbac9b2c-8bc8-46f3-b4b4-4094dc2b1215,28,Female,Divorced,Low,High School,Location manager,Owns house,"(2,)","(0.2,)",465,True,True,True,False,False,True
+205,8a2129ff-7450-460a-8da4-582c40e5fc1e,39,Male,Widowed,Low,College,Air broker,Living with parents,"(2,)","(0.22,)",449,False,True,False,True,True,True
+206,2d69f8c0-2772-4e77-9ada-8e8b1c872048,33,Female,Single,Medium,College,"Lighting technician, broadcasting/film/video",Owns house,"(1,)","(0.37,)",481,True,True,True,True,True,True
+207,42d305be-5cf8-456e-8cfb-2f5a67ace3a5,35,Male,Widowed,High,High School,Advertising art director,Living with parents,"(4,)","(0.14,)",725,True,True,True,True,True,False
+208,39e68ba2-4dad-458d-a295-cc9c667a2fa3,52,Male,Single,Low,High School,"Journalist, newspaper",Living with parents,"(3,)","(0.47,)",435,True,False,False,False,True,True
+209,ee1e555a-baa5-457c-87bd-af6aae1d954e,65,Female,Single,Low,University,Media buyer,Rents,"(2,)","(0.48,)",755,False,True,True,True,True,True
+210,d26ade67-563a-4fc9-b7a2-f9e6c20b2560,61,Male,Single,Medium,College,Contracting civil engineer,Living with parents,"(0,)","(0.47,)",597,False,True,False,True,False,True
+211,06778ffa-9507-4119-bc07-2a5ca2a54789,62,Male,Widowed,High,High School,Maintenance engineer,Living with parents,"(0,)","(0.25,)",839,True,True,False,True,True,True
+212,c1cfd33b-27ab-4cda-a942-9f7d322da2e7,20,Female,Single,Medium,College,Product manager,Living with parents,"(5,)","(0.42,)",484,False,True,False,True,False,True
+213,02033452-1dd3-42e7-b25b-61ff5400ecdb,61,Female,Single,Medium,High School,Adult guidance worker,Rents,"(2,)","(0.38,)",654,True,True,False,False,True,False
+214,3b384b5b-7190-4bb6-810d-e17770ec8f9f,69,Male,Married,High,High School,"Surveyor, hydrographic",Owns house,"(2,)","(0.17,)",513,True,True,False,True,False,False
+215,14dd6e83-33a5-435a-bf43-8b48bed070d5,50,Male,Married,Medium,University,Call centre manager,Rents,"(4,)","(0.14,)",573,True,False,True,True,False,True
+216,a952bbee-8c16-4cb4-b712-fb1edd7bfaae,47,Female,Married,Medium,High School,Town planner,Rents,"(4,)","(0.28,)",777,True,False,True,False,True,True
+217,e5209585-a01f-4f88-b893-ab966677c279,43,Female,Single,Low,University,Ceramics designer,Living with parents,"(3,)","(0.11,)",633,False,True,True,True,True,True
+218,432e3932-b888-4078-9205-cf69e853106f,32,Male,Married,Medium,University,Clothing/textile technologist,Owns house,"(3,)","(0.36,)",441,True,True,True,False,True,True
+219,a6244746-aef6-46e9-8f6a-0b9c69b4cbc7,68,Female,Single,Medium,College,Special educational needs teacher,Owns house,"(2,)","(0.37,)",706,True,False,True,True,False,False
+220,d8eb0ebf-6e08-4cc4-8612-6da491b3c1ca,43,Male,Divorced,Medium,College,"Psychologist, sport and exercise",Owns house,"(3,)","(0.26,)",712,True,True,True,True,False,False
+221,0487cf65-255c-4dd8-8267-aba10de57899,45,Female,Divorced,High,High School,Production engineer,Owns house,"(3,)","(0.44,)",590,True,False,False,False,True,True
+222,df7d4eb7-adb7-4156-a5da-f0fae9134bef,47,Male,Divorced,Low,College,"Optician, dispensing",Living with parents,"(0,)","(0.43,)",441,True,False,True,True,True,True
+223,bb44d528-0199-4650-a5bf-44dcb3790728,68,Male,Married,Medium,University,Risk manager,Living with parents,"(2,)","(0.43,)",600,True,True,False,False,True,True
+224,fe508863-79ce-4025-860a-9ea75ad43888,22,Male,Married,Medium,University,Oncologist,Owns house,"(1,)","(0.11,)",497,True,True,True,True,True,True
+225,a68a87d3-6917-4f10-b9a2-4b391f359c59,64,Male,Married,High,College,Land,Living with parents,"(2,)","(0.47,)",462,True,False,False,True,True,True
+226,c8048fd8-4681-4b93-8d92-f027c9507e0f,55,Female,Married,High,University,Diagnostic radiographer,Owns house,"(2,)","(0.36,)",596,True,False,False,True,False,True
+227,1bf9a401-620b-4106-a835-111359931962,42,Male,Single,High,University,Chief Executive Officer,Living with parents,"(3,)","(0.38,)",605,True,False,True,True,True,False
+228,3a74b2c4-3963-4a82-ae55-c28b7f931283,21,Male,Single,Low,College,Engineering geologist,Owns house,"(0,)","(0.26,)",710,True,False,True,False,False,True
+229,43631f48-9ddb-4dfc-aa53-f35f0dc9dda5,57,Male,Divorced,Medium,College,Psychiatric nurse,Owns house,"(4,)","(0.46,)",520,True,True,True,False,True,True
+230,0a4d7e25-d48a-4ce0-b184-0fb6e3d708b3,32,Female,Widowed,Low,High School,"Surveyor, building",Owns house,"(0,)","(0.38,)",819,False,False,True,True,True,False
+231,2c567413-b740-4e2a-af00-7c6642469999,55,Female,Divorced,Low,University,Petroleum engineer,Living with parents,"(4,)","(0.5,)",467,False,False,True,False,False,True
+232,891bbd61-ba7d-4e8f-910d-d1dc85448f30,50,Male,Married,Low,University,Chartered legal executive (England and Wales),Rents,"(3,)","(0.41,)",748,False,False,True,True,True,True
+233,32af3462-19ce-4fcc-ac50-161a88ae2124,35,Male,Single,High,High School,IT trainer,Rents,"(3,)","(0.3,)",658,False,True,False,True,True,False
+234,710e2b66-7675-4869-baae-5c76273ff8c4,66,Male,Married,Low,University,Trade mark attorney,Rents,"(0,)","(0.49,)",789,True,False,False,False,False,True
+235,d56e0ecc-3485-409f-a438-3181cc1b0cd3,48,Male,Single,Medium,High School,Make,Living with parents,"(3,)","(0.42,)",624,False,True,False,False,True,False
+236,f9dd3b0a-db70-4ad2-a65e-4bff93be1a09,53,Female,Widowed,Medium,High School,"Scientist, research (physical sciences)",Rents,"(4,)","(0.36,)",713,True,True,True,True,False,False
+237,b5c54568-2337-4c0c-9e31-7f0ecea24e81,45,Male,Married,Low,University,Trade mark attorney,Living with parents,"(2,)","(0.31,)",801,True,True,False,False,False,True
+238,247d25cf-2202-4c2e-ba2e-a5ba6da094f7,35,Male,Divorced,Medium,University,Building control surveyor,Owns house,"(5,)","(0.44,)",407,True,False,True,False,True,True
+239,7f25e98f-b404-4a6a-8ff8-687fadfbd93d,40,Male,Married,Low,High School,Consulting civil engineer,Rents,"(3,)","(0.35,)",426,True,True,True,False,True,False
+240,f5372493-2327-46d2-a254-76edbfe5eef3,45,Female,Divorced,Low,University,Newspaper journalist,Living with parents,"(1,)","(0.22,)",792,True,True,True,True,True,True
+241,96bf6d69-1165-4ee0-a402-9471b7d66428,69,Female,Married,High,University,Software engineer,Owns house,"(4,)","(0.22,)",685,False,True,True,False,True,True
+242,d851d16f-50ab-4642-8e6d-e9e2fafcd087,23,Male,Divorced,High,University,Immunologist,Owns house,"(5,)","(0.44,)",447,False,True,False,True,True,True
+243,2bcb9acc-c3b0-464c-8b3e-3dc92ba8a994,63,Male,Single,High,High School,Brewing technologist,Living with parents,"(0,)","(0.39,)",472,True,False,False,False,True,True
+244,d5159940-8692-48c8-b6ee-171917197dc3,29,Male,Widowed,Medium,High School,Physiotherapist,Owns house,"(1,)","(0.27,)",787,True,False,True,True,True,False
+245,2ff06e4b-5db7-4aca-8d1a-b50de36014d7,67,Male,Divorced,Medium,University,Quarry manager,Rents,"(2,)","(0.33,)",598,True,True,False,True,False,True
+246,76120b2b-bdc0-4803-9b60-355e3f4b940b,31,Male,Divorced,High,High School,"Psychologist, counselling",Living with parents,"(5,)","(0.27,)",710,False,True,False,True,False,False
+247,46ae6343-f3dc-453c-83e0-46bc5890959f,40,Male,Married,Low,University,Dealer,Rents,"(1,)","(0.14,)",618,False,False,True,False,False,True
+248,7794cad9-b0f8-4868-b853-7c47a44cb680,46,Male,Married,Medium,High School,"Administrator, Civil Service",Rents,"(5,)","(0.4,)",624,True,True,True,True,True,False
+249,e121103a-3629-4d80-a071-fac7121792f4,46,Female,Single,Medium,College,"Development worker, community",Living with parents,"(1,)","(0.2,)",423,False,True,True,True,False,True
+250,0ac76ef7-9168-415b-bc74-2cbf7a7d2f7c,42,Male,Divorced,High,College,Lobbyist,Rents,"(2,)","(0.12,)",766,False,True,False,False,True,False
+251,a0a08edb-0c0e-44c0-8edc-b403bfbc01f5,62,Female,Married,Medium,College,"Physicist, medical",Living with parents,"(3,)","(0.32,)",406,True,True,True,True,True,True
+252,1801b8ed-94e9-4e53-b104-faaad57a6fdf,35,Male,Single,Medium,College,"Research officer, government",Rents,"(3,)","(0.46,)",544,False,False,True,True,True,True
+253,befd918e-f2e0-41f4-9efc-4809aa984211,42,Female,Widowed,Medium,College,Television camera operator,Owns house,"(3,)","(0.18,)",420,True,True,True,True,True,False
+254,465ac1c9-1adb-43ee-947e-ff3c7e915065,28,Male,Widowed,Low,College,Environmental manager,Owns house,"(2,)","(0.25,)",537,True,True,True,True,False,True
+255,6078fb63-7aa0-4728-8f62-42441ab3b670,41,Female,Single,Low,College,Logistics and distribution manager,Owns house,"(0,)","(0.27,)",455,True,True,False,False,True,True
+256,6c75cdde-7bd7-4a32-9eec-5f84d0b9f39f,23,Female,Single,Medium,College,Training and development officer,Rents,"(2,)","(0.34,)",482,True,True,False,True,True,True
+257,97a77038-aad6-4e37-a49b-e4922e926ad3,22,Male,Single,Medium,University,Herpetologist,Owns house,"(3,)","(0.22,)",413,False,False,True,False,False,True
+258,31c6ee4a-74b3-4298-ba6a-69f47e2a52f2,63,Male,Married,Medium,High School,Landscape architect,Living with parents,"(3,)","(0.42,)",631,True,True,True,True,True,False
+259,4d55d6e6-7120-480a-9774-16ebd71316f2,43,Female,Widowed,High,University,Magazine journalist,Rents,"(4,)","(0.4,)",405,False,False,True,False,False,True
+260,edb575da-bc35-48fd-a572-8b555604e94a,57,Female,Single,High,College,Lawyer,Rents,"(0,)","(0.24,)",820,True,True,True,True,True,False
+261,2501ea18-3803-4f1d-ae42-55919017a3f5,55,Male,Widowed,High,University,"Surveyor, land/geomatics",Living with parents,"(0,)","(0.47,)",744,True,True,False,True,True,False
+262,9e74b5f2-f99f-4833-9b8a-4ac405d5c758,24,Female,Single,Medium,College,Dispensing optician,Rents,"(0,)","(0.41,)",489,False,True,False,True,True,False
+263,4f53e246-e13f-41bc-9e3f-aeef27b57031,33,Male,Widowed,Low,University,Passenger transport manager,Owns house,"(2,)","(0.13,)",662,False,False,True,False,True,True
+264,28ae32b4-a5fb-48c7-a654-25c21660c5f7,60,Male,Widowed,Low,High School,"Conservator, furniture",Rents,"(0,)","(0.21,)",830,True,True,False,True,True,True
+265,22673e1c-1e96-4142-ac4b-3335390fd3ee,38,Male,Married,Medium,High School,Politician's assistant,Living with parents,"(0,)","(0.23,)",823,True,False,False,True,False,False
+266,7d8b1f76-020f-455f-87de-f7807e89f0cb,37,Male,Widowed,High,University,Town planner,Rents,"(4,)","(0.34,)",466,True,True,False,False,True,False
+267,833edbd5-5ba8-43fb-b327-58cccec47bcf,42,Female,Widowed,High,College,Manufacturing engineer,Owns house,"(5,)","(0.34,)",442,False,False,True,True,True,True
+268,4e52d0f6-5547-4595-a0dc-b31ccdb217c2,50,Female,Widowed,High,College,Licensed conveyancer,Owns house,"(4,)","(0.39,)",513,True,True,True,False,True,False
+269,74e26c3c-4ecd-400d-92db-e2049c2c6b49,34,Female,Married,Medium,High School,"Scientist, research (life sciences)",Owns house,"(4,)","(0.36,)",426,True,True,False,False,True,True
+270,a31d7db8-79c2-4139-8689-3ecec76038c4,60,Male,Single,Low,University,Senior tax professional/tax inspector,Rents,"(1,)","(0.2,)",436,True,True,False,True,True,False
+271,ffb04268-5897-4611-ada6-0c7f35220d54,46,Female,Single,Low,College,Local government officer,Rents,"(2,)","(0.49,)",519,False,False,True,True,True,True
+272,33831241-c8ea-4b4e-8874-b1e604cafe78,52,Male,Divorced,High,College,Paramedic,Owns house,"(0,)","(0.34,)",428,False,True,True,True,True,False
+273,749725d2-4d95-439c-a027-1915891d7efb,26,Female,Single,High,College,Broadcast engineer,Rents,"(4,)","(0.33,)",550,True,False,False,False,True,False
+274,392d929c-2e0d-440e-aedb-0df87bbd863a,37,Male,Married,Low,University,"Librarian, academic",Living with parents,"(3,)","(0.16,)",737,True,False,True,True,True,True
+275,74133c73-b4c2-4bbd-a02c-1bafd2f65073,61,Female,Divorced,High,University,Regulatory affairs officer,Living with parents,"(2,)","(0.1,)",845,False,True,True,True,False,True
+276,807ed8b6-ae26-4ea7-8180-97966cc79aee,29,Male,Married,High,High School,Technical author,Rents,"(4,)","(0.2,)",702,False,False,True,False,True,True
+277,b43235f9-59d6-420d-9635-2309cb567b9f,48,Female,Single,Medium,University,Surgeon,Rents,"(0,)","(0.48,)",752,True,True,True,True,True,True
+278,49c24f4f-73e1-427f-bb08-8f4e6bf4b303,50,Female,Widowed,High,College,Air cabin crew,Rents,"(4,)","(0.36,)",560,True,True,True,True,False,True
+279,298fb010-17cb-4c5c-ae27-28ce273f1d3a,46,Male,Married,Medium,High School,Animator,Owns house,"(4,)","(0.16,)",843,False,False,True,True,True,True
+280,309d6986-7d3d-46a9-9414-90f0aba59fb5,64,Male,Single,Medium,University,Personnel officer,Owns house,"(4,)","(0.12,)",659,True,True,False,True,True,True
+281,5658c577-9bb0-4547-aa03-e1a4615dc68d,25,Male,Single,Medium,College,Applications developer,Owns house,"(3,)","(0.21,)",668,False,True,False,True,True,True
+282,dac5f909-48f4-4b28-9d7f-fcdbe53d6ea1,40,Male,Single,Medium,University,"Conservation officer, nature",Living with parents,"(3,)","(0.25,)",667,True,True,True,True,False,False
+283,cc009186-55ed-4ce1-b51b-0c2c292416f4,47,Female,Married,High,College,"Designer, jewellery",Owns house,"(0,)","(0.37,)",703,True,False,False,False,False,True
+284,770e5245-aea3-4bdf-b129-b98c5f1f40ba,62,Male,Divorced,Low,University,"Accountant, chartered certified",Living with parents,"(2,)","(0.49,)",795,False,True,False,True,True,True
+285,3f75b289-9967-4f82-9b88-0b52ef5b94ce,41,Male,Single,High,College,Associate Professor,Owns house,"(1,)","(0.12,)",646,True,False,False,True,True,False
+286,65904c91-fcae-4d7f-a8a4-7ea9139bf3b8,57,Female,Married,Low,College,Counselling psychologist,Owns house,"(3,)","(0.27,)",565,True,True,True,True,True,True
+287,c1023864-a1f8-4689-8d67-41f8bec46c6f,70,Female,Single,High,College,Secondary school teacher,Rents,"(5,)","(0.31,)",429,False,True,True,False,True,True
+288,e8e46b40-b501-44bf-9dd0-a5b009ca2981,21,Female,Widowed,Medium,High School,"Secretary, company",Living with parents,"(3,)","(0.48,)",679,True,False,True,True,True,True
+289,34db0adf-8bbc-4388-be7e-345c8891f064,23,Male,Single,High,High School,"Therapist, horticultural",Rents,"(3,)","(0.3,)",779,True,True,True,True,True,True
+290,e40103ab-086f-4121-a56f-2185dffc688c,24,Female,Single,Low,College,Structural engineer,Rents,"(0,)","(0.25,)",713,False,True,False,True,True,True
+291,47d3fa44-1e6f-40c0-9f08-b0b4026112e3,21,Male,Divorced,Low,High School,"Psychotherapist, child",Living with parents,"(5,)","(0.29,)",571,False,False,True,True,True,True
+292,b495dce2-4859-420a-b520-61d4286bd68c,34,Female,Single,High,College,Equities trader,Owns house,"(2,)","(0.33,)",781,False,True,False,True,True,True
+293,bdf196db-a2fd-42ae-9ada-a57b56e5bfce,68,Female,Married,High,College,Sports administrator,Rents,"(2,)","(0.36,)",450,False,True,False,True,False,True
+294,42dcfcfb-f4bd-45e4-b9f6-012c688b88da,39,Male,Widowed,High,College,"Journalist, newspaper",Owns house,"(2,)","(0.3,)",810,False,True,True,True,False,True
+295,e570933b-a8af-4519-9f43-12e0bd27c3f4,69,Female,Single,Medium,College,Tax inspector,Owns house,"(0,)","(0.25,)",699,True,True,False,False,True,True
+296,4c58d015-62d2-4b15-8b6d-7e7f234c0adb,57,Male,Single,Low,College,Television production assistant,Owns house,"(3,)","(0.35,)",565,False,True,True,True,False,True
+297,573f61d3-b072-4d2a-bf89-d9f34e5c58cc,25,Female,Widowed,Medium,University,Press photographer,Living with parents,"(2,)","(0.12,)",463,True,False,True,True,True,True
+298,6c80ed83-793c-42ed-80b1-77774e9cedea,53,Male,Married,Low,University,Chartered loss adjuster,Living with parents,"(2,)","(0.49,)",668,True,True,True,False,True,False
+299,e1c444c1-7f13-4f71-862b-d60cb1125f86,37,Female,Single,Medium,High School,Museum/gallery curator,Living with parents,"(0,)","(0.21,)",523,True,True,True,True,False,True
+300,c921af59-9932-4115-8323-b7d453bf038f,25,Female,Married,Medium,High School,Neurosurgeon,Living with parents,"(0,)","(0.29,)",568,False,False,True,True,False,False
+301,f5950800-d4b2-40d8-8393-e99ada406c07,33,Male,Married,High,High School,Youth worker,Owns house,"(4,)","(0.1,)",639,True,True,True,False,True,True
+302,9c000897-fab3-4e01-b97c-8d99a624c714,55,Female,Single,Low,College,Broadcast presenter,Living with parents,"(5,)","(0.39,)",680,True,True,False,True,True,True
+303,659b09c2-5648-454e-a9b9-d1a1bf480223,62,Male,Widowed,Medium,High School,Copy,Owns house,"(0,)","(0.11,)",677,False,False,True,False,False,True
+304,f5396214-cc89-4cd4-abd4-e6915b44ea90,21,Female,Widowed,Medium,College,Restaurant manager,Owns house,"(3,)","(0.34,)",767,False,False,True,False,True,False
+305,27f0259a-be56-4860-948c-2cf2fe464c39,52,Male,Divorced,Low,University,Retail merchandiser,Owns house,"(1,)","(0.49,)",624,True,False,True,True,True,False
+306,59df485f-8dc9-431c-97d3-39ba4c774b0a,44,Female,Divorced,High,College,Database administrator,Rents,"(4,)","(0.33,)",422,True,True,True,False,True,True
+307,6bbdd70e-7365-4459-b883-d43a4f77b20c,42,Female,Widowed,Medium,High School,Learning disability nurse,Owns house,"(1,)","(0.41,)",773,True,False,False,True,False,False
+308,2e548d67-148e-4cda-af5e-985a03c563b4,32,Male,Single,Low,College,Physiological scientist,Living with parents,"(2,)","(0.15,)",608,True,True,False,True,True,False
+309,416f816a-22e6-4a86-b104-4c87fb020730,38,Female,Single,Low,High School,Fitness centre manager,Rents,"(3,)","(0.21,)",478,True,True,True,True,True,True
+310,f18166cc-2651-4cfc-8d6d-91ea41b6113a,61,Female,Married,Low,University,"Lecturer, further education",Owns house,"(2,)","(0.34,)",710,True,True,True,True,False,True
+311,82986226-a8d4-4d3e-ab87-a8c2c3dbae1f,68,Female,Widowed,Low,University,Chief Operating Officer,Living with parents,"(4,)","(0.13,)",450,False,False,True,False,True,True
+312,b5d96491-44a3-48e2-9805-484e1399a43d,56,Female,Divorced,Medium,High School,"Nurse, adult",Rents,"(0,)","(0.16,)",577,False,True,True,False,False,True
+313,1838c427-3860-420c-b0c3-415a578ccc98,22,Male,Single,High,College,"Designer, blown glass/stained glass",Owns house,"(0,)","(0.25,)",694,True,True,True,True,True,True
+314,465f7064-d534-4ca7-82d3-fe9252e473d7,23,Female,Widowed,Medium,College,Medical sales representative,Rents,"(5,)","(0.21,)",721,True,False,True,False,True,True
+315,6f071035-2d98-411b-8a81-59108a0f91dd,33,Female,Divorced,Medium,College,"Engineer, energy",Rents,"(3,)","(0.39,)",698,True,True,True,True,True,False
+316,65b25a89-6b29-41f0-85e5-f10bee813604,67,Female,Single,Medium,High School,Podiatrist,Living with parents,"(4,)","(0.21,)",822,False,True,False,True,False,False
+317,cbfe23e1-f87e-4fff-9ca3-27b811195442,68,Male,Widowed,Low,College,Medical physicist,Living with parents,"(0,)","(0.48,)",716,True,True,True,True,False,True
+318,a941ddc0-a89e-4111-aa8e-795235be5f72,34,Male,Widowed,High,College,"Lecturer, further education",Living with parents,"(4,)","(0.37,)",667,False,True,True,False,False,True
+319,6ef36f41-5e28-42ee-a28c-00fce73011d4,63,Female,Widowed,Low,University,Fashion designer,Owns house,"(1,)","(0.35,)",624,False,True,True,True,False,False
+320,21999596-15d7-4889-adda-a447c247d78a,50,Female,Single,Medium,College,Paramedic,Owns house,"(5,)","(0.13,)",712,False,True,True,True,False,True
+321,350f566d-f1b3-49f3-969b-6f0da13d30f9,60,Male,Single,High,College,Counselling psychologist,Rents,"(3,)","(0.25,)",725,False,True,False,False,True,True
+322,ea92b5b0-baf1-4403-a9e6-86a442c4527d,23,Male,Divorced,High,High School,"Scientist, research (life sciences)",Owns house,"(4,)","(0.41,)",541,True,False,False,True,True,False
+323,5e5c1c7b-8160-4f56-a20d-850832b4e730,53,Female,Widowed,Low,University,Tourist information centre manager,Owns house,"(0,)","(0.25,)",598,False,True,True,True,True,True
+324,34247754-4223-4167-b4a3-b362e7d619c1,40,Female,Divorced,Medium,University,Lexicographer,Rents,"(4,)","(0.17,)",752,True,True,True,True,True,False
+325,50e5c19b-d711-450d-95bb-908d6a38cd47,44,Male,Married,High,High School,Town planner,Rents,"(1,)","(0.34,)",450,True,True,False,True,False,True
+326,f65c7d2c-4010-4704-9841-cc971de26a5f,37,Male,Divorced,Medium,University,Illustrator,Owns house,"(4,)","(0.25,)",593,True,True,False,True,False,True
+327,be39c09a-9f46-44af-9497-7321365d0c43,23,Male,Single,High,College,Press sub,Owns house,"(0,)","(0.48,)",707,False,False,True,True,False,False
+328,0f2b81c2-b7cf-4e42-bd51-43dc1f76ac0c,70,Female,Single,High,College,Medical secretary,Rents,"(1,)","(0.44,)",678,True,False,True,True,True,True
+329,20f1f80c-1ff2-4b5e-808f-1684eec32f32,41,Female,Single,High,University,Games developer,Rents,"(0,)","(0.15,)",562,True,False,False,True,False,True
+330,91442806-1d06-4c3f-a08e-323b34c248cd,32,Female,Married,Medium,High School,Child psychotherapist,Living with parents,"(0,)","(0.26,)",643,True,False,False,True,False,False
+331,d88f262f-a554-419f-8237-9a9fe2bef839,43,Female,Divorced,Medium,College,Historic buildings inspector/conservation officer,Rents,"(3,)","(0.23,)",474,False,False,True,False,True,False
+332,19c3a4a5-6c22-4852-924b-7a4b29a5145e,26,Male,Married,High,University,Firefighter,Rents,"(0,)","(0.43,)",401,False,False,True,True,False,False
+333,6881803e-b144-490f-982d-ebee457c6a8f,65,Female,Single,Medium,College,Advertising account executive,Rents,"(2,)","(0.41,)",667,False,True,True,True,False,True
+334,d4d582f7-82b4-4258-b8b4-fba137afe66e,69,Female,Divorced,Low,College,Veterinary surgeon,Rents,"(3,)","(0.17,)",480,True,True,True,False,True,False
+335,e4dac046-a18c-4526-882a-99b4851518f6,38,Female,Divorced,Medium,University,Volunteer coordinator,Living with parents,"(0,)","(0.24,)",795,True,True,True,True,True,True
+336,973d7ee7-d14a-4a32-aacb-b112de2d0b60,70,Male,Single,High,High School,Product designer,Owns house,"(4,)","(0.17,)",747,True,True,False,True,True,False
+337,8a56261b-220d-4ee7-922e-5e2a3d7a389e,51,Male,Widowed,High,High School,Government social research officer,Rents,"(3,)","(0.32,)",771,False,True,False,False,True,True
+338,72e4f681-bbea-4579-92d4-1880d20b3423,27,Female,Single,Medium,College,"Designer, graphic",Living with parents,"(5,)","(0.23,)",812,False,False,True,False,True,False
+339,65f757dd-ce83-49bf-85a2-bbbe416c6d20,20,Male,Divorced,Low,University,"Scientist, physiological",Rents,"(2,)","(0.34,)",448,True,True,False,True,True,True
+340,15ea636f-4a74-413b-b893-d7c555655135,26,Male,Divorced,High,University,"Accountant, chartered certified",Owns house,"(5,)","(0.49,)",673,True,True,True,True,True,True
+341,e3def372-cd03-47a8-885c-1cc2463704e5,26,Female,Widowed,Low,College,Learning disability nurse,Owns house,"(0,)","(0.21,)",516,True,True,True,True,True,True
+342,f678e7ae-1ad6-4559-8716-b0ebe269bb3d,45,Female,Married,Medium,University,Land/geomatics surveyor,Owns house,"(5,)","(0.31,)",639,True,True,False,True,False,True
+343,18c7b6c3-9fdc-4489-9843-9e203fb181d7,58,Male,Married,Medium,High School,Careers adviser,Rents,"(3,)","(0.16,)",743,True,True,True,True,True,True
+344,23eff8e1-03ba-4f92-a72f-3c1ed8acf450,20,Male,Single,Medium,College,Financial trader,Living with parents,"(3,)","(0.3,)",432,False,True,True,True,True,True
+345,21c445e5-6f7e-4685-9c3a-f3e5f778f768,47,Male,Divorced,Medium,University,Production manager,Living with parents,"(1,)","(0.13,)",472,True,False,True,False,False,True
+346,d3a2a1cc-2cfc-4f78-b9d0-ba8112db2a3f,56,Female,Divorced,Low,High School,Medical sales representative,Living with parents,"(4,)","(0.45,)",840,True,True,True,False,False,True
+347,63e29347-ae29-44e1-b90b-bc540f2e3591,54,Female,Married,High,University,Data scientist,Owns house,"(3,)","(0.39,)",523,True,False,False,True,True,True
+348,ea8a53c1-9207-4030-a4f0-3d88084f402a,32,Male,Divorced,Medium,High School,Systems analyst,Living with parents,"(1,)","(0.35,)",475,True,False,True,True,False,True
+349,eaeb939a-5861-4522-b3e6-4a245f32ea25,28,Male,Widowed,High,College,"Producer, radio",Owns house,"(5,)","(0.19,)",549,True,False,True,False,True,False
+350,96a89b9e-8545-4252-aa78-f13a3657f286,40,Female,Divorced,High,College,Dealer,Living with parents,"(5,)","(0.45,)",788,True,True,True,True,True,True
+351,df04ce7e-7fa9-4093-83ed-c68eda3ba20a,20,Female,Divorced,High,College,Armed forces logistics/support/administrative officer,Rents,"(2,)","(0.4,)",530,False,True,False,True,False,True
+352,50dd4bc4-826f-4c75-8fba-b9c249a27dcb,52,Female,Divorced,Low,College,"Accountant, chartered",Owns house,"(4,)","(0.17,)",794,True,True,True,True,True,True
+353,6ba102ea-595e-4eef-b814-fd4e77f0c23a,67,Male,Married,High,College,Exhibition designer,Rents,"(2,)","(0.26,)",687,False,True,True,False,True,True
+354,975a76eb-68e3-48a7-bd21-58b27f76b9a5,20,Female,Single,Medium,High School,Claims inspector/assessor,Living with parents,"(5,)","(0.17,)",447,True,False,True,True,True,True
+355,f4c0c303-672e-44b4-879e-d355b5e14f10,41,Male,Divorced,Low,College,Garment/textile technologist,Owns house,"(0,)","(0.23,)",779,False,False,True,True,True,True
+356,3f22467b-7ad2-4a9f-8156-8b2f51390abe,28,Female,Widowed,High,University,Conference centre manager,Living with parents,"(3,)","(0.32,)",791,True,False,True,True,False,True
+357,5c3cf44f-433e-4f56-a584-46dcd7dd092e,64,Male,Married,Low,High School,Network engineer,Living with parents,"(0,)","(0.24,)",577,True,True,False,True,False,True
+358,9ead128a-04e8-42ef-adba-6f9bc359edbb,27,Male,Single,Medium,College,Automotive engineer,Rents,"(1,)","(0.16,)",433,True,True,True,True,True,True
+359,343510af-6d2a-4197-9a73-87be027d0683,57,Male,Single,Low,University,Dramatherapist,Owns house,"(2,)","(0.29,)",666,True,True,True,False,True,False
+360,02a4bdd4-ccc5-4d51-9960-445463925e5b,67,Male,Single,Low,High School,Newspaper journalist,Owns house,"(3,)","(0.42,)",775,False,True,True,True,True,False
+361,2e2ac3d4-f50a-47d6-9bb0-7d7ba23ed9ae,37,Female,Married,High,High School,Broadcast engineer,Owns house,"(5,)","(0.34,)",825,True,False,False,False,True,False
+362,9fd09f11-8bfa-4b8f-a86d-9bba3e5300bd,25,Male,Married,Medium,High School,"Investment banker, corporate",Rents,"(4,)","(0.32,)",621,False,False,True,False,True,True
+363,5673d7bf-bf5c-433b-bb42-7ff4404bac3a,49,Female,Single,High,University,"Producer, radio",Living with parents,"(2,)","(0.23,)",473,True,True,True,True,True,True
+364,566a6490-a052-4b26-aa63-6e79d74e6f24,46,Female,Widowed,Medium,University,Exhibition designer,Rents,"(3,)","(0.17,)",564,True,False,True,False,True,False
+365,071b574c-31f1-4813-b2a5-06ade1cf30ee,31,Female,Single,Low,College,Camera operator,Rents,"(1,)","(0.46,)",765,True,True,True,False,True,False
+366,e1805eb0-5bc3-4d8b-aa22-0d03bdbe8a6b,31,Male,Single,Low,College,Naval architect,Living with parents,"(4,)","(0.17,)",718,False,True,True,False,True,True
+367,af68fa3f-ea0a-4da5-a7d4-7dfeb0e0fc93,47,Male,Divorced,Medium,College,Interior and spatial designer,Rents,"(4,)","(0.44,)",809,True,False,True,True,True,True
+368,fe3146bb-4471-4450-9460-8c1ec8c5d78d,55,Female,Married,Medium,High School,Quantity surveyor,Owns house,"(5,)","(0.26,)",564,True,True,True,True,False,True
+369,5a3a955a-0df2-4860-8c14-dd4334b21240,54,Female,Divorced,High,University,"Administrator, arts",Living with parents,"(4,)","(0.34,)",759,False,True,True,True,False,True
+370,3ab23104-f4ec-41ea-a330-6b591113c961,59,Female,Single,Low,High School,Quarry manager,Living with parents,"(5,)","(0.27,)",574,True,True,False,True,False,True
+371,6575ca6c-c850-43ae-93d6-f37a3f025e1c,23,Male,Single,Medium,High School,Paramedic,Owns house,"(3,)","(0.5,)",690,False,False,True,True,True,False
+372,6274ad83-d851-46eb-99ab-148afb2029ab,63,Male,Single,Medium,University,Customer service manager,Rents,"(0,)","(0.43,)",779,True,False,True,True,True,True
+373,f4cf9051-df79-4fa3-8cad-8a8d7542599d,34,Male,Widowed,High,High School,Bookseller,Owns house,"(2,)","(0.36,)",425,True,False,False,True,True,True
+374,155500fb-5304-4c37-81d8-09005fbf01b9,29,Female,Married,High,College,Chief Marketing Officer,Living with parents,"(1,)","(0.33,)",593,True,False,False,True,False,False
+375,240fc044-9969-4b54-8ab9-65a87be1385f,25,Female,Divorced,High,College,Magazine journalist,Owns house,"(3,)","(0.3,)",434,False,True,True,True,True,False
+376,07318789-f943-436c-aed7-14e03d843ce3,43,Male,Married,Low,College,"Teacher, special educational needs",Owns house,"(2,)","(0.37,)",833,True,True,True,False,True,False
+377,7ebe0b7e-c05c-4006-8666-5d2cc14f1a97,35,Female,Divorced,Low,University,Diagnostic radiographer,Rents,"(3,)","(0.3,)",460,True,False,False,True,True,True
+378,9a83eb5e-2932-4c6d-90f2-9ead44eb9d60,44,Male,Widowed,Medium,College,General practice doctor,Rents,"(0,)","(0.16,)",765,True,False,True,True,True,True
+379,f79a07a9-46a5-40b6-b424-885df597e149,29,Female,Widowed,High,High School,Actor,Owns house,"(3,)","(0.46,)",537,True,True,True,False,False,True
+380,dde7f4c9-3db9-446e-bee4-9e89fdad1ee8,46,Female,Married,High,University,Animal technologist,Living with parents,"(5,)","(0.35,)",458,True,True,True,True,False,False
+381,60d249d0-8a37-47b1-af91-1d7f9d5d51a8,68,Female,Widowed,Low,High School,Occupational therapist,Living with parents,"(2,)","(0.13,)",457,False,False,True,True,False,True
+382,b1ac01d7-e7cc-4a5c-9714-ba98b08d50f8,55,Female,Married,High,High School,Insurance account manager,Living with parents,"(5,)","(0.26,)",809,False,False,True,False,True,True
+383,a5b9dc4f-b8ce-4289-b19e-f18dfa56c1bb,46,Female,Widowed,High,College,Geographical information systems officer,Owns house,"(2,)","(0.44,)",772,False,True,False,False,True,False
+384,f2fdfccb-4dd1-40d4-83f6-6b7f12bc83d8,67,Female,Single,High,High School,Surgeon,Rents,"(3,)","(0.35,)",489,True,True,False,True,True,True
+385,5c0c1b08-f9a6-4154-ba0c-cabaf50b0fdc,28,Female,Single,Low,University,"Engineer, mining",Living with parents,"(2,)","(0.39,)",653,False,True,True,True,False,True
+386,490ab20d-0c0c-4ef3-9f4b-92a5d754c240,38,Female,Single,Low,College,Radio broadcast assistant,Living with parents,"(4,)","(0.18,)",505,False,False,True,True,True,True
+387,f0984b5f-3934-4f63-b5f2-6d192817fe4a,56,Male,Divorced,Medium,University,Haematologist,Rents,"(2,)","(0.38,)",449,True,False,False,True,True,True
+388,24b9cf41-219d-41fa-b7ec-34936545409b,29,Female,Divorced,Low,High School,Clinical molecular geneticist,Owns house,"(3,)","(0.39,)",544,False,True,False,True,False,True
+389,566a770c-79c9-4858-ba46-fc542fb20830,25,Female,Single,High,High School,Air cabin crew,Owns house,"(2,)","(0.31,)",836,True,True,False,True,True,True
+390,10d177b8-2a96-4d04-a1b8-5acf5557a16b,21,Female,Married,Low,College,Police officer,Rents,"(0,)","(0.28,)",523,True,True,False,True,False,True
+391,4fa1154a-fea3-4d83-8f3b-162be9a4881e,23,Female,Single,Low,High School,Cytogeneticist,Living with parents,"(5,)","(0.3,)",669,True,False,True,True,False,False
+392,8c7d4909-39ea-4565-80d0-6964a27dc7b0,30,Male,Divorced,High,High School,Retail manager,Owns house,"(0,)","(0.4,)",565,False,True,False,True,True,False
+393,5407b18b-cb57-49c3-a38f-a97438b0d953,35,Female,Divorced,High,University,Translator,Rents,"(4,)","(0.15,)",530,False,True,True,True,True,True
+394,5f9889f5-a1e6-454b-96ae-80605ba3c7a9,59,Female,Widowed,Low,College,Herpetologist,Rents,"(4,)","(0.48,)",401,True,False,True,True,False,False
+395,afd043bf-d2ff-48f7-a026-b534a357ed28,62,Male,Married,Low,College,Marketing executive,Living with parents,"(3,)","(0.29,)",787,False,True,True,True,True,False
+396,1dcd56e4-70c4-4786-83fe-068423e8f9a0,69,Female,Widowed,High,College,Electronics engineer,Owns house,"(5,)","(0.33,)",463,False,True,False,True,True,False
+397,a4902ba7-542a-4064-b65c-0b5a8d04f9f8,35,Female,Divorced,Low,University,Medical physicist,Rents,"(3,)","(0.13,)",423,False,True,True,True,True,False
+398,4f5a2588-d9d7-49d3-8952-a8cb247ca7af,34,Female,Widowed,High,College,Private music teacher,Rents,"(1,)","(0.19,)",537,True,False,False,True,False,True
+399,d0d4d3e4-5478-485e-824a-014b0fc36cac,27,Male,Single,Medium,College,Insurance account manager,Rents,"(2,)","(0.32,)",488,False,True,True,True,True,True
+400,d707e42b-e5ec-4074-9129-3740a9ad97b0,63,Female,Divorced,Medium,University,Psychotherapist,Rents,"(5,)","(0.42,)",512,True,False,True,True,True,False
+401,07230faf-a9c2-4122-ae6a-96400b85e56c,43,Female,Married,High,High School,Theatre manager,Owns house,"(1,)","(0.36,)",515,True,True,True,True,False,False
+402,cbbfc40f-41c1-464e-80b0-1840231fc42a,59,Male,Single,Medium,High School,Sports coach,Rents,"(5,)","(0.4,)",639,True,False,True,True,False,True
+403,2545dcc3-7a5c-4a1c-987a-982683e5aedf,21,Male,Single,Low,University,Database administrator,Living with parents,"(2,)","(0.38,)",531,True,True,False,True,True,True
+404,3ddbec92-9862-4ab7-bb14-3aa259a5eb4f,58,Female,Single,Low,College,Personnel officer,Owns house,"(3,)","(0.28,)",751,True,False,True,False,False,True
+405,be0519c0-5aee-4df9-8069-7eba23307231,39,Female,Widowed,High,University,Homeopath,Rents,"(3,)","(0.11,)",486,True,True,True,True,False,False
+406,ccaf5c2a-b884-42f4-aa83-c9f510ea30a2,43,Female,Single,Medium,University,Paramedic,Rents,"(1,)","(0.33,)",415,True,True,True,True,True,False
+407,ec7b0b4d-0ae5-451c-95a0-54aad2f60e1d,35,Male,Married,Medium,University,Chief Executive Officer,Rents,"(5,)","(0.15,)",744,False,True,True,True,False,False
+408,a35dc323-c420-4986-bfeb-66fb82557501,56,Female,Married,Medium,College,Commissioning editor,Rents,"(2,)","(0.41,)",635,False,True,False,True,True,False
+409,86935485-6dd0-4fa9-a086-66bf2da593f0,69,Female,Divorced,Low,High School,Chief Operating Officer,Living with parents,"(5,)","(0.35,)",635,True,False,True,False,True,True
+410,7c74066e-f5bf-4a93-a67c-3aead36987fe,61,Female,Married,Low,University,Television floor manager,Owns house,"(2,)","(0.25,)",676,True,True,False,True,True,False
+411,d88952ce-13b7-45f4-af64-b348887b16c8,37,Male,Widowed,Medium,College,Illustrator,Owns house,"(1,)","(0.17,)",685,True,True,True,True,True,True
+412,cc88f544-1d2f-459d-b237-fdb0cc49496c,36,Female,Widowed,Medium,High School,"Librarian, public",Rents,"(4,)","(0.18,)",688,True,True,True,False,True,True
+413,cb069de6-3c82-4659-a915-9da4bde5ceca,21,Male,Single,High,College,Conference centre manager,Living with parents,"(4,)","(0.2,)",709,True,True,True,False,True,True
+414,9ee9b336-386e-418c-9dad-24b8cb28010e,55,Female,Widowed,Low,University,Fitness centre manager,Owns house,"(4,)","(0.11,)",500,True,False,False,True,True,True
+415,304422b5-b870-4300-8726-fa250b0c212c,34,Female,Divorced,High,High School,IT sales professional,Owns house,"(1,)","(0.26,)",502,False,True,True,True,False,True
+416,8a49b5e9-323b-42fb-82aa-15b4452e3ea9,65,Female,Widowed,Medium,High School,"Lecturer, higher education",Rents,"(2,)","(0.23,)",485,True,False,True,False,True,True
+417,7f1489e9-6fcf-43d7-b5a9-63a121b00a7c,49,Female,Widowed,Low,College,Associate Professor,Owns house,"(1,)","(0.25,)",551,True,False,False,True,True,True
+418,f04bf95f-b6a9-427c-92d7-49d6184d57d8,66,Female,Divorced,Low,University,"Production assistant, radio",Owns house,"(2,)","(0.39,)",555,True,False,False,True,False,True
+419,ea43e1ca-b0d9-485f-9d37-017825b4cdc1,41,Female,Divorced,Low,College,Bookseller,Owns house,"(5,)","(0.41,)",705,True,False,True,False,True,True
+420,d9be7059-02e8-4ace-91f8-c0ca77b0c2d3,29,Male,Married,Low,College,Consulting civil engineer,Owns house,"(3,)","(0.24,)",637,True,True,False,False,False,True
+421,fbc4e2e5-e031-4b4e-973a-5ccf35c0ad38,27,Female,Single,High,High School,Orthoptist,Owns house,"(5,)","(0.3,)",841,False,True,True,True,True,False
+422,a5306759-3017-40f3-921f-a3c55c0a0ff9,21,Male,Married,High,College,Site engineer,Owns house,"(0,)","(0.16,)",573,False,False,True,True,True,False
+423,ac886482-0833-4905-a5fd-616761367bfc,63,Male,Single,Medium,College,Archivist,Owns house,"(5,)","(0.32,)",761,False,False,True,True,False,False
+424,a551e91c-3db1-4e37-8bbb-1dc171c5e4c4,31,Female,Divorced,Medium,College,Arboriculturist,Rents,"(4,)","(0.11,)",467,True,True,True,False,False,True
+425,a92e41b4-8931-437c-969c-d666f4d3733d,37,Female,Single,High,College,"Production assistant, radio",Rents,"(5,)","(0.41,)",696,True,True,True,True,False,True
+426,0e537ddb-3eb3-4ec0-a722-6e3c171598c3,61,Male,Widowed,Low,High School,Public relations account executive,Rents,"(0,)","(0.31,)",526,False,True,False,False,True,False
+427,5431d870-1433-44de-a941-da9aed3a1032,37,Female,Divorced,High,High School,Insurance broker,Rents,"(1,)","(0.37,)",763,True,True,True,False,False,True
+428,e5c9ac6d-d405-4c4e-8875-c18d9cf8f82a,50,Female,Married,Medium,College,Archivist,Living with parents,"(4,)","(0.17,)",637,True,True,True,True,False,False
+429,3e781c50-b190-4c1e-8468-bafab676a850,31,Female,Divorced,Low,College,Sports therapist,Rents,"(0,)","(0.29,)",751,False,True,False,True,False,True
+430,26535170-4194-476c-9249-4d64b31d6354,38,Female,Married,Low,College,Public relations account executive,Rents,"(4,)","(0.15,)",756,True,False,True,True,True,True
+431,3f27ad04-746c-4ca7-9151-7883f6e2cf84,53,Female,Divorced,High,University,"Engineer, chemical",Owns house,"(4,)","(0.27,)",423,True,True,True,False,False,True
+432,5cd896ae-f530-49c1-b5ee-542c7fed5ced,38,Male,Single,High,High School,Geophysical data processor,Rents,"(3,)","(0.29,)",717,False,False,True,True,True,True
+433,ab275501-fa46-417b-8e0a-f65f1a626ff1,57,Male,Widowed,Medium,University,Heritage manager,Living with parents,"(4,)","(0.35,)",665,True,True,True,True,False,True
+434,a217f12e-c7a2-45cf-b750-b823c7f5f1bc,45,Female,Divorced,High,University,"Surveyor, mining",Living with parents,"(2,)","(0.14,)",566,False,True,True,True,False,False
+435,4061e829-5960-4066-8396-536cb74cf484,26,Male,Single,Medium,College,Bookseller,Rents,"(1,)","(0.27,)",529,True,False,False,True,True,True
+436,eed7b3d5-6596-4fac-88e7-e9c6f58b34a5,36,Male,Married,Low,University,"Investment banker, corporate",Rents,"(4,)","(0.26,)",601,False,True,True,True,True,True
+437,b5c4dc9a-6b06-4510-b9a6-6408b12e0c2d,52,Male,Single,Medium,College,Dispensing optician,Rents,"(3,)","(0.17,)",748,False,False,True,True,False,False
+438,5aa6f38a-2b2b-4402-8ab1-9272a7caa1ad,70,Female,Widowed,Medium,University,Maintenance engineer,Owns house,"(5,)","(0.19,)",826,True,True,True,True,True,False
+439,24873c9f-6304-4d5e-bc25-9ce51309436e,39,Male,Divorced,High,College,Applications developer,Rents,"(2,)","(0.41,)",544,True,False,False,True,False,False
+440,2f75ec83-7301-4cc5-acdf-73d142aa6239,44,Male,Single,Medium,University,Advertising copywriter,Living with parents,"(1,)","(0.26,)",538,True,True,False,False,True,True
+441,9e646a11-4731-4c88-bbb3-ffddeac9e288,36,Male,Married,High,High School,Medical technical officer,Owns house,"(1,)","(0.33,)",739,True,True,False,True,False,False
+442,c934442a-062d-465f-a10b-767b421d6ad2,35,Male,Married,High,High School,Accounting technician,Rents,"(5,)","(0.37,)",664,False,True,True,False,True,True
+443,69932aa3-8989-4858-85e0-fc51c2ade6a2,31,Female,Widowed,High,University,Town planner,Living with parents,"(0,)","(0.21,)",786,False,True,True,True,True,True
+444,4e640e00-088e-4ba7-85c4-9f4ef6bbec91,45,Female,Divorced,High,University,Armed forces operational officer,Living with parents,"(0,)","(0.18,)",525,False,True,True,False,True,True
+445,afaa3eb9-c3c4-4adf-ab36-6601dca99fb6,22,Female,Divorced,Low,College,Radiation protection practitioner,Owns house,"(4,)","(0.39,)",690,False,True,True,True,True,False
+446,f861a7b8-e291-4305-9bfc-9b50939cc8cc,38,Female,Married,Medium,College,"Development worker, international aid",Living with parents,"(0,)","(0.12,)",483,True,True,True,True,True,False
+447,d9b4ee26-8ca6-4ed7-9091-675e0332c25f,35,Male,Widowed,Low,College,"Engineer, electrical",Living with parents,"(3,)","(0.4,)",777,True,False,False,True,True,True
+448,f4039b7a-ef64-42d7-8fc9-7fd3e288d4e8,69,Male,Married,Medium,University,Advertising copywriter,Owns house,"(0,)","(0.2,)",514,False,False,True,True,True,True
+449,47164ef7-c9f6-4cb8-82f8-ad148db5ea9d,49,Female,Divorced,Low,University,Biomedical scientist,Rents,"(5,)","(0.44,)",804,True,True,True,True,True,True
+450,0af3337a-1f62-430c-b63f-10bf61b861c2,47,Male,Divorced,High,College,"Engineer, land",Rents,"(3,)","(0.41,)",749,False,True,True,True,True,True
+451,4acbbb15-a79f-4de2-9676-1e5173914c90,36,Female,Single,Low,High School,Applications developer,Rents,"(0,)","(0.31,)",806,True,False,True,True,False,True
+452,e904eb09-f5ab-450d-83c3-f3a6e0050293,70,Female,Widowed,Low,University,Patent attorney,Rents,"(1,)","(0.34,)",568,True,False,False,False,True,True
+453,c47f0ef7-c9bb-403d-b451-30e0f63fefb5,55,Female,Married,Medium,High School,"Therapist, art",Living with parents,"(5,)","(0.41,)",514,True,True,True,False,False,True
+454,6b870c8a-c870-4675-8b41-8f54e4c747d1,69,Female,Married,Medium,High School,Geochemist,Rents,"(0,)","(0.17,)",742,True,False,True,False,True,True
+455,1c864fc8-e2e6-43a8-96b3-192717667f5f,68,Male,Married,Medium,High School,Pathologist,Owns house,"(5,)","(0.19,)",793,True,False,True,False,True,False
+456,4dc94dea-1a78-466b-bc6a-09a82ab860d0,46,Female,Married,High,High School,Furniture conservator/restorer,Rents,"(0,)","(0.15,)",449,True,True,True,True,True,True
+457,dd7ebfaa-0b09-4e13-b76e-869807c6403a,45,Female,Widowed,Low,College,Advice worker,Owns house,"(5,)","(0.33,)",460,True,False,False,False,True,True
+458,6d179690-52a7-4ace-8050-6d1a056b21ba,66,Male,Divorced,High,University,Water quality scientist,Owns house,"(1,)","(0.13,)",507,True,True,False,False,False,True
+459,c37dffb8-a169-45e4-98f2-48a6a7c070ff,44,Male,Single,Medium,University,Garment/textile technologist,Rents,"(5,)","(0.42,)",836,True,False,False,False,True,True
+460,04071285-cb8f-4eb2-a73f-e99df6b6d34f,36,Male,Divorced,Medium,High School,Hotel manager,Rents,"(2,)","(0.15,)",403,True,True,True,True,True,False
+461,dc3a8e98-909f-42db-b500-cbbf7335394e,43,Male,Widowed,High,High School,"Physicist, medical",Rents,"(2,)","(0.46,)",799,True,True,True,True,True,True
+462,a96ad727-c71a-4eb0-ad3e-72fb7f5c38a9,51,Male,Single,High,College,Risk manager,Owns house,"(3,)","(0.46,)",620,False,False,True,False,True,False
+463,5fd66129-f15f-4015-93c7-124dc8cad5e9,43,Female,Widowed,Low,High School,Therapeutic radiographer,Owns house,"(1,)","(0.11,)",800,True,True,False,False,True,False
+464,1e700039-103b-4612-a652-6941023e86ec,42,Female,Single,Low,College,Radio producer,Rents,"(4,)","(0.18,)",820,True,True,True,True,False,False
+465,662561bb-e465-40c3-b410-069dc3d59d91,25,Female,Widowed,High,College,Communications engineer,Rents,"(3,)","(0.33,)",850,False,True,True,False,True,False
+466,8f58b722-30b1-4528-b810-1be23784a9df,31,Female,Widowed,High,College,Planning and development surveyor,Rents,"(0,)","(0.12,)",799,False,False,True,True,True,False
+467,c0fd80a2-31ca-4efb-abc2-abea05383836,42,Male,Divorced,Medium,University,"Civil engineer, contracting",Living with parents,"(4,)","(0.19,)",563,False,True,True,True,True,True
+468,e199723e-c966-4fba-ae33-eea6a9f406f2,22,Female,Divorced,Medium,College,Occupational therapist,Owns house,"(0,)","(0.35,)",827,True,False,False,False,False,True
+469,ccfc712d-13f6-47bc-a4ba-87a4eb59c2a1,49,Female,Divorced,Low,High School,"Engineer, site",Living with parents,"(0,)","(0.46,)",702,True,False,True,False,True,True
+470,f2567b24-3edd-426f-856f-da498289f9b8,69,Male,Widowed,Medium,College,Food technologist,Living with parents,"(0,)","(0.17,)",593,True,False,True,False,False,True
+471,59b9a27c-bc7b-49df-9383-a73f4df3717e,32,Male,Single,Low,College,Tree surgeon,Owns house,"(3,)","(0.1,)",487,False,False,True,False,True,True
+472,30083d2a-435c-493c-9152-08aecd22e1e0,44,Female,Divorced,Low,College,Community development worker,Rents,"(0,)","(0.27,)",659,True,True,True,True,False,True
+473,c8b13ac4-4d9d-43fb-9871-50705ca8ea03,43,Male,Married,Medium,University,Insurance risk surveyor,Owns house,"(1,)","(0.47,)",814,False,True,True,False,True,True
+474,650e3bd6-48ff-4624-bdd7-a582796bd2a0,44,Female,Divorced,High,High School,IT technical support officer,Living with parents,"(1,)","(0.25,)",735,True,False,False,True,False,False
+475,cd980700-521c-4427-bb06-fe504e7195c3,42,Female,Married,Medium,University,Sub,Owns house,"(0,)","(0.16,)",662,True,False,False,True,False,True
+476,ec75e65d-73c3-4b60-99b4-b7a811b7b352,49,Male,Divorced,High,University,Animator,Owns house,"(2,)","(0.36,)",553,True,True,False,True,True,True
+477,3acc46ca-aaee-401f-bdd2-8327f81a121d,47,Female,Widowed,Medium,College,"Nurse, adult",Rents,"(3,)","(0.18,)",627,True,True,True,False,True,False
+478,0a5f82e4-1e73-42db-8768-139adde44001,46,Female,Married,Medium,University,Financial trader,Living with parents,"(2,)","(0.1,)",728,True,True,False,False,True,False
+479,55ff5c99-9fcf-4311-b3a6-79080fa3874c,48,Male,Widowed,High,College,"Merchandiser, retail",Owns house,"(0,)","(0.2,)",712,True,True,False,False,True,True
+480,f3209e97-397b-4dc9-a1cd-af907bd29511,29,Male,Single,High,University,Personal assistant,Owns house,"(4,)","(0.4,)",807,True,True,True,False,True,True
+481,37b5ed64-a7e1-4d14-862d-6acc179d6e2f,49,Female,Single,Low,College,"Engineer, mining",Owns house,"(0,)","(0.44,)",760,True,True,False,False,True,True
+482,7c0dd0ff-0b5f-47eb-b29a-ce0f1256ec77,45,Male,Married,Low,University,Psychiatrist,Living with parents,"(3,)","(0.26,)",684,False,True,False,False,True,False
+483,887d4560-645e-42bb-9b4e-175d715151ca,42,Male,Widowed,Medium,College,Commissioning editor,Owns house,"(4,)","(0.33,)",628,True,False,True,True,True,True
+484,083c0bb3-d3e0-4979-974b-1dad1a0647a7,36,Female,Widowed,High,College,Publishing copy,Rents,"(4,)","(0.23,)",512,True,True,True,True,True,False
+485,ada54c96-6015-47c8-a5fa-f9bfd692b77f,48,Male,Divorced,Medium,University,Community pharmacist,Rents,"(5,)","(0.31,)",785,False,True,True,False,True,False
+486,80247805-3db7-46d1-b8fe-ae6d0de5edd5,61,Male,Married,Low,High School,Homeopath,Rents,"(3,)","(0.35,)",842,True,False,True,False,True,False
+487,8a48c4b4-47ce-4dee-a663-7b933f8131ad,51,Male,Married,Medium,High School,Geophysical data processor,Rents,"(2,)","(0.18,)",737,False,False,True,True,True,False
+488,5b99bde4-7c3a-4f7b-9c7e-acef779687ed,35,Female,Married,Low,College,Pathologist,Rents,"(5,)","(0.38,)",447,True,True,False,True,True,True
+489,2b0c73b2-7b40-4e95-90cc-7d48480cb1ff,30,Female,Widowed,Medium,University,Land/geomatics surveyor,Owns house,"(2,)","(0.11,)",662,False,True,False,True,True,False
+490,1bef2944-59ee-41ef-a532-598e11b7c9e7,70,Female,Widowed,Low,High School,Arts development officer,Owns house,"(1,)","(0.49,)",406,True,True,True,True,True,True
+491,e39e56c9-b018-4f2d-a15f-1877d90f505d,22,Male,Widowed,High,High School,Theatre manager,Rents,"(4,)","(0.36,)",473,False,True,False,True,False,False
+492,c3b4606e-6046-415e-ba4c-9b94b47d2e4c,25,Male,Single,Low,College,Television camera operator,Owns house,"(3,)","(0.47,)",643,True,False,True,True,False,False
+493,963bbbe0-0ca9-44c8-aa69-45b0540f5f28,61,Female,Widowed,Medium,College,"Engineer, water",Rents,"(0,)","(0.29,)",769,True,True,True,True,True,True
+494,5b861b52-a47e-4858-8072-fe8c97b396ab,60,Male,Divorced,Medium,University,Associate Professor,Living with parents,"(0,)","(0.44,)",596,False,True,True,True,False,False
+495,00dec690-80ac-4444-8d43-48b33184ecbd,52,Male,Married,High,College,Wellsite geologist,Owns house,"(1,)","(0.3,)",441,True,False,True,True,False,False
+496,37ff9abc-7a64-4431-aeab-25b849e851b8,32,Male,Widowed,Medium,University,"Surveyor, building control",Living with parents,"(4,)","(0.24,)",789,False,True,False,False,True,True
+497,4a651bfb-5e45-435c-9d9c-d688cd5f8a7f,44,Female,Divorced,Medium,College,Animal nutritionist,Owns house,"(3,)","(0.34,)",625,True,False,False,True,False,False
+498,e453a4d1-c951-4bd0-bf17-e0053b4c3d12,68,Male,Married,Low,College,Higher education careers adviser,Living with parents,"(5,)","(0.43,)",803,True,True,False,False,True,True
+499,7494c173-c479-43f6-a58b-41565b38c41f,43,Female,Widowed,High,University,Equality and diversity officer,Living with parents,"(5,)","(0.13,)",811,True,False,True,True,False,True

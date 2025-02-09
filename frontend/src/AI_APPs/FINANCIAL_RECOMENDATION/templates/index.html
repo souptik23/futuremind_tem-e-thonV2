@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Recommendation Engine</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --primary-dark: #4338CA;
+            --secondary: #8B5CF6;
+            --success: #10B981;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #4F46E5, #8B5CF6);
+            min-height: 100vh;
+            padding: 40px 20px;
+            color: #1F2937;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.98);
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin: 30px 0 20px;
+            font-size: 1.8em;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #4B5563;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #E5E7EB;
+            border-radius: 12px;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            background: #F9FAFB;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: var(--primary);
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+            background: white;
+        }
+
+        button {
+            width: 100%;
+            padding: 16px;
+            margin-top: 25px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(79, 70, 229, 0.2);
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(79, 70, 229, 0.3);
+        }
+
+        .product-card {
+            background: linear-gradient(135deg, #F3F4F6, #EEF2FF);
+            border-radius: 16px;
+            padding: 25px;
+            margin: 25px 0;
+            border-left: 6px solid var(--primary);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .product-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid rgba(79, 70, 229, 0.2);
+        }
+
+        .product-icon {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 6px rgba(79, 70, 229, 0.2);
+        }
+
+        .product-title {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .reasoning-section {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .reasoning-title {
+            color: var(--primary);
+            font-size: 1.2rem;
+            margin: 0 0 15px 0;
+            font-weight: 600;
+        }
+
+        .reasoning-content {
+            line-height: 1.8;
+        }
+
+        .reasoning-content b {
+            color: var(--primary-dark);
+            font-weight: 600;
+        }
+
+        .result {
+            display: none;
+            margin-top: 40px;
+            animation: fadeIn 0.6s ease;
+        }
+
+        .error {
+            color: #DC2626;
+            text-align: center;
+            margin-top: 15px;
+            padding: 12px;
+            background: #FEE2E2;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+
+        .ask-question {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #E5E7EB;
+        }
+
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Range input styling */
+        input[type="range"] {
+            -webkit-appearance: none;
+            height: 8px;
+            background: #E5E7EB;
+            border-radius: 4px;
+            border: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 24px;
+            height: 24px;
+            background: var(--primary);
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.1);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .product-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Financial Recommendation Engine</h1>
+
+        <form id="recommendationForm" class="form-grid">
+            <div class="form-group">
+                <label>Age:</label>
+                <input type="number" name="age" min="18" max="100" required>
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <select name="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Marital Status:</label>
+                <select name="marital_status">
+                    <option>Single</option>
+                    <option>Married</option>
+                    <option>Divorced</option>
+                    <option>Widowed</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Annual Income (INR):</label>
+                <input type="number" name="annual_income" required>
+            </div>
+
+            <div class="form-group">
+                <label>Education:</label>
+                <select name="education">
+                    <option>High School</option>
+                    <option>College</option>
+                    <option>University</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Occupation:</label>
+                <input type="text" name="occupation">
+            </div>
+
+            <div class="form-group">
+                <label>Residential Status:</label>
+                <select name="residential_status">
+                    <option>Owns house</option>
+                    <option>Rents</option>
+                    <option>Living with parents</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Dependents:</label>
+                <input type="number" name="dependents" min="0" max="10">
+            </div>
+
+            <div class="form-group">
+                <label>Debt-to-Income Ratio:</label>
+                <input type="range" name="debt_to_income" min="0" max="1" step="0.01">
+            </div>
+
+            <div class="form-group">
+                <label>Credit Bureau Score:</label>
+                <input type="number" name="credit_bureau" min="300" max="850">
+            </div>
+
+            <div class="form-group" style="grid-column: 1 / -1;">
+                <button type="submit">Get Personalized Recommendation</button>
+            </div>
+        </form>
+
+        <div class="error" id="error"></div>
+        <div class="result" id="result"></div>
+
+        <div class="ask-question">
+            <h2>Have a Specific Financial Question?</h2>
+            <textarea placeholder="Enter your financial question here. Our AI assistant will help you with personalized guidance..."></textarea>
+            <button type="button">Get Expert Advice</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('recommendationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+
+            // Show loading state
+            const button = this.querySelector('button[type="submit"]');
+            const originalText = button.textContent;
+            button.textContent = 'Analyzing...';
+            button.disabled = true;
+
+            fetch('/recommend', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById('result');
+                const errorDiv = document.getElementById('error');
+
+                errorDiv.style.display = 'none';
+                resultDiv.style.display = 'block';
+
+                if (data.error) {
+                    errorDiv.textContent = data.error;
+                    errorDiv.style.display = 'block';
+                    resultDiv.style.display = 'none';
+                    return;
+                }
+
+                // Convert markdown-style bold syntax to HTML
+                const formattedResult = data.result
+                    .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')
+                    .replace(/\n/g, '<br>')
+                    .replace(/\* /g, '• ');
+
+                const recommendationHTML = `
+                    <div class="product-card">
+                        <div class="product-header">
+                            <div class="product-icon">💡</div>
+                            <h2 class="product-title">Your Personalized Financial Recommendations</h2>
+                        </div>
+                        <div class="reasoning-section">
+                            <div class="reasoning-content">
+                                ${formattedResult}
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                resultDiv.innerHTML = recommendationHTML;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                const errorDiv = document.getElementById('error');
+                errorDiv.textContent = 'Sorry, there was an error processing your request. Please try again.';
+                errorDiv.style.display = 'block';
+            })
+            .finally(() => {
+                // Restore button state
+                button.textContent = originalText;
+                button.disabled = false;
+            });
+        });
+        document.querySelector('.ask-question button').addEventListener('click', function () {
+    const questionInput = document.querySelector('.ask-question textarea');
+    const question = questionInput.value.trim();
+
+    if (!question) {
+        alert('Please enter a question before submitting.');
+        return;
+    }
+
+    // Disable button while processing
+    const button = this;
+    const originalText = button.textContent;
+    button.textContent = 'Getting Advice...';
+    button.disabled = true;
+
+    fetch('/ask', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query: question })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.error) {
+            alert('Error: ' + data.error);
+            return;
+        }
+
+        const resultDiv = document.getElementById('result');
+        resultDiv.style.display = 'block';
+
+        // Format response
+        const formattedResponse = data.result
+            .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')
+            .replace(/\n/g, '<br>');
+
+        resultDiv.innerHTML = `
+            <div class="product-card">
+                <div class="product-header">
+                    <div class="product-icon">💬</div>
+                    <h2 class="product-title">Expert Financial Advice</h2>
+                </div>
+                <div class="reasoning-section">
+                    <div class="reasoning-content">${formattedResponse}</div>
+                </div>
+            </div>
+        `;
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Sorry, something went wrong. Please try again.');
+    })
+    .finally(() => {
+        button.textContent = originalText;
+        button.disabled = false;
+    });
+});
+
+    </script>
+</body>
+</html>

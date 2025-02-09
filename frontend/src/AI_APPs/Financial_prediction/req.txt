@@ -1,0 +1,8 @@
+flask
+pandas
+numpy
+langchain
+chromadb
+langchain-community
+huggingface-hub
+python-dotenv
